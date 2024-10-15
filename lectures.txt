@@ -1,0 +1,5196 @@
+IT1100 - Internet and Web Technologies
+
+
+
+         Introduction
+
+
+                                         1
+Internet and Web technologies
+    • Module Code             IT1100
+    • Credit Points           04
+    Method of Delivery
+    • 2 hours - lectures
+    • 1 hour - tutorials
+    • 2 hours - labs
+
+    • Enrollment Key       IT1100
+Assessment Criteria
+             Component              %
+             Mid Semester Exam      20%
+             Assignment – part 01   10%
+             Assignment – part 02   20%
+             Final Exam             50%
+
+   Important
+   To pass this module Student need to obtain a pass mark in
+   both “Continues assessment“ and “End of the Semester
+   Examination “ components which would result in an overall
+   mark that would qualify for a C grade or above.
+Assignments
+You need to get into 5-member group for the assignment
+within the same subgroup.
+• You must “Develop a web Application”
+• Project Titles are given by us
+
+Assignment Submissions
+• 5th Week – Documentation of your project plan .
+• 12th Week – Final project submission .
+• 12th and 13th Week - Viva.
+Reference Materials
+❑W3 school - https://www.w3schools.com/
+❑J. Reynolds and R. Mofazali, The complete e-commerce book:
+ design, build, and maintain a successful web-based business,
+ 1st. ed., C M P Books, 2000.
+❑R. Nixon, Learning PHP, MySQL, JavaScript and CSS: A step-by-
+ step guide to creating dynamic websites, O’Reilly Media, Inc.,
+ 2012.
+❑H. Sharp, Y. Rogers, and J. Preece, Interaction Design: Beyond
+ Human-Computer Interaction, 2nd ed. Wiley, 2007.
+❑Tutorial point - tutorialspoint.com
+PLEAE CHECK THE
+COURSE WEB
+REGULARY …….
+Concepts and technologies
+ Associated with the Web
+       applications
+         Lecture 01
+Content
+• Data networks and the Internet
+
+• Network Services and Protocols
+
+• Web server and the Browser
+
+• Markup languages
+
+                                   8
+Data Networks and
+     Internet
+What is a network?
+• A network is (according to the Cambridge Dictionary)
+ a large system consisting of many similar parts that are connected
+ together to allow movement or communication along the parts, or
+ between the parts and a control centre.
+
+
+
+
+                                                                 10
+    Different types of networks
+• There are different types of
+  networks available (according to
+  the nature of the usage)
+  • Telecommunication networks
+  • Television or radio network
+  • Transport networks
+  • Social networks
+  • Computer or data networks
+
+
+                                     11
+Computer and Data Network
+
+                     • A computer network, or data
+                       network is
+                       • a digital telecommunications network,
+                         which allows nodes to share resources.
+                       • In computer networks, computing devices
+                         exchange data with each other using
+                         connections between nodes (data links).
+                       • These data links are established over cable
+                         media such as wires or optic cables, or
+                         wireless media such as WiFi.
+
+                                                            12
+Application of Data Networks
+▪Resource Sharing
+  • Hardware (computing resources, disks, printers)
+  • Software (application software)
+
+▪Information Sharing
+  ▪ Easy accessibility from anywhere (files, databases)
+  ▪ Search Capability (WWW)
+
+▪Communication
+  ▪ Email Message
+  ▪ broadcast
+
+▪Remote computing
+Types of data networks - LAN
+ Local Area Network – LAN
+ ▪ Network in small geographical Area (Room,
+   Building or a Campus) is called LAN (Local
+   Area Network)
+ ▪ Local Area Networks are privately-owned
+   networks within a small area, usually a single
+   building or campus of up to a few kilometers.
+ ▪ Since it is restricted in size, that means their
+   data transmission time can be known in
+   advance, and the network management
+   would be easier.
+
+                                                      Source: http://cityinfrastructure.com/Data/Daa.html
+
+
+                                                                                                            14
+Types of data networks - MAN
+ Metropolitan Area Network – MAN
+ ▪ A Metropolitan Area Network (MAN) is a
+   network that is utilized across multiple
+   buildings
+ ▪ Commonly used in schools, campuses
+   ,hospitals , banks or large companies with
+   multiple buildings
+ ▪ Is larger than a LAN, but smaller than a
+   WAN
+ ▪ Is also used to mean the interconnection of
+   several LANs by bridging them together. This
+   sort of network is also referred to as a
+   campus network
+
+
+                                                  Source: http://cityinfrastructure.com/Data/Daa.html
+
+
+                                                                                                        15
+Types of data networks - WAN
+Wide Area Network – WAN
+▪ A Wide Area Network is a network
+  spanning a large geographical area of
+  around several hundred miles to across
+  the globe
+▪ May be privately owned or leased
+▪ Also called “enterprise networks” if they
+  are privately owned by a large company
+▪ Can be connected through cable, fiber
+  or satellite
+▪ Is typically slower and less reliable than
+  a LAN
+Internet
+▪ The Internet is the global system of interconnected
+  computer networks that use the Internet protocol suite
+  to link devices worldwide.
+▪ It is a network of networks
+▪ Consists of private, public, academic, business, and
+  government networks of local to global scope.
+▪ Linked by a broad array of electronic, wireless, and optical
+  networking technologies.
+                                                Source https://en.wikipedia.org/wiki/Internet
+
+
+
+                                                                                                17
+Network Services and
+     Protocols
+Protocols
+• A protocol is a
+   ▪ system of rules that allow two or more entities of a communications
+     system to transmit information (wiki)
+   ▪ the formal system of rules for correct behavior
+     on official occasions (Cambridge)
+
+
+
+
+                                                                           19
+Infographic Style
+
+
+
+
+    Different Types of Services and Protocols
+            Mail service (POP3/SMTP/IMAP)
+                                                        File Transfer ( FTP)
+
+
+
+
+                                            Protocols
+
+
+
+
+                    Remote Logging (SSH)                Web (HTTP/HTTPS)
+
+
+
+
+                                                                               20
+Web server and the
+     Browser
+Identify the browsers
+We Use a browser to send HTTP/ HTTPS request
+
+
+
+
+                                               22
+The browser
+• Usually, the clients use the web browser to access the
+  web application in the server, based on the request-
+  response pattern.
+  1. The user enters the address of the web server (domain name) into
+     the browser.
+  2. The browser sends a request to the web server
+  3. The server responses with the client components
+  4. The client components are loaded into the browser
+  5. The browser reads the content and renders
+
+
+                                                                        23
+The Server
+• A server is a software, which knows how to handle the
+  requests and responses, while providing a specific
+  service
+• A web server is used to host a web application.
+  • Apache (for php development)
+  • Tomcat (for JAVA development)
+  • IIS (for .NET/ASP development)
+• Web server knows how to communicate with the
+  clients using the HTTP/HTTPS
+
+                                                          24
+Client and Server
+
+
+
+
+                    25
+Types of languages
+
+   ▪High level/Compiled languages – Java, C, C++
+
+   ▪Scripting languages – JS,PHP, Python
+
+   ▪Markup languages – XML, HTML,XHTML
+
+
+
+                                                   26
+Markup Languages
+extensible Markup Language
+ ▪Designed to store and transport data
+ ▪Both human- and machine-readable
+  (self descriptive)
+ ▪Often used for distributing data over
+  networks
+ ▪Used by may other tools like protocols
+
+
+                                           28
+XML
+• The main and the only component of XML is called an
+  element
+• An element has 3 components
+  1. Start tag
+  2. Body
+  3. End tag
+• No predefined set of elements, attributes, and values
+  for attributes
+
+        <Tag_name>IWT</Tag_name>
+                                                          29
+XML
+• An element has a name
+  • Element names are case-sensitive
+  • Element names must start with a letter or underscore
+  • Element names cannot start with the letters, xml (or XML, or Xml, etc)
+  • Element names can contain letters, digits, hyphens, underscores, and periods
+  • Element names cannot contain spaces
+  • Any name can be used, no words are reserved (except xml)
+              <Module>IWT</Module>
+
+                                                                                   30
+XML
+• Element names – naming styles
+     Style         Example        Description
+     Lower case    <firstname>    All letters lower case
+     Upper case    <FIRSTNAME>    All letters upper case
+     Underscore    <first_name>   Underscore separates words
+
+     Pascal case   <FirstName>    Uppercase first letter in each
+                                  word
+     Camel case    <firstName>    Uppercase first letter in each
+                                  word except the first
+
+                                                                   31
+XML
+• <?xml version="1.0" encoding="UTF-8"?>
+
+▪ This is the XML declaration
+   • Provides the instructions for the processor to understand the details of
+     the XML file
+   • Encoding attribute indicates the character set
+      • UTF-8 = Unicode Transformation Format (with 8-bit blocks to represent a
+        character)
+▪ An element may have attribute(s)
+   • Attributes describe the element
+▪ Attribute value is always quoted (either single or double quote)
+• <person id=“1”>Saman</person>
+
+                                                                                  32
+XML
+▪ There can be multiple attributes for an element
+
+      <person id=“1” age=“35”>
+         Saman
+      </person>
+
+▪ Attributes are separated by a space
+
+▪ There are special type of element with a single self closing
+  tag
+    <age/>
+                                                                 33
+XML
+• Elements can be nested
+
+<person id=“1">
+          <firstname>Saman</firstname>
+          <lastname>De Silva</lastname>
+            <age/>
+</person>
+
+<person id=“2">
+          <firstname>Saman</firstname>
+          <lastname>De Silva</lastname>
+            <age>28</age>
+</person>
+• The first element, which wraps and holds the other elements is called, the root element
+
+                                                                                            34
+XML
+  • Learn more about XML
+  https://www.w3schools.com/xml/default.asp
+
+  •HTML Unicode (UTF-8) Reference
+  https://www.w3schools.com/charsets/ref_html_utf8.asp
+
+
+
+
+                                                         35
+Question
+• Write XML code to store following personal data
+  • Name
+  • Gender
+  • Age
+  • School
+
+
+
+
+                                                    36
+HTML – Hyper Text Markup Language
+▪HTML is the standard language to develop the web
+ pages
+▪The web browser knows to read the HTML document
+ and render the content, showing a nice GUI for web
+ sites/applications
+▪HTML has a predefined set of elements, attributes,
+ and values for some attributes
+
+                                                      37
+HTML – Hyper Text Markup Language
+▪HTML document (or the web pages) are hosted in a
+ web server
+▪User requests for the initial web page by entering the
+ address on the browser
+▪Thereafter the user can navigate through the web
+ pages in the site/application using the hyperlinks
+
+
+                                                          38
+HTML – Structure of HTML document
+               <!DOCTYPE HTML>              Version
+
+
+Root Element   <html>
+
+                 <head>             Information about the
+                                            page
+                 </head>
+
+                                     Content of the page
+                 <body>                that should be
+                 </body>                 displayed
+
+
+
+               </html>
+                                                            39
+HTML – Types of element
+• Structural elements
+  • header, footer, nav, aside, article
+• Text elements
+  • Headings – <h1> to <h6>
+  • Paragraph – <p>
+  • Line break - <br>
+• Images
+  • <img src=“imgName.jpg" alt=“description">
+                                                40
+HTML – Types of element
+• The HTML elements that doesn’t contain any closing
+  tag is referred as ”Empty Elements”.
+                 <hr>          Horizontal Line
+
+
+
+                 <br>            Line break
+
+
+
+
+                                                       41
+HTML – First page
+<!DOCTYPE html>
+<html>
+  <head>
+     <title>My first page</title>
+  </head>
+  <body>
+     <h1>Hello world</h1>
+     <p>This is my first html page</p>
+  </body>
+<html>
+
+                                         42
+HTML – Types of element
+• Data representational elements (these elements use
+  nested structures)
+    Lists                Lists                tables
+    <ul>                 <ol>                 <h2>Table</h2>
+     <li>IWT</li>         <li>IWT</li>        <table border="1">
+     <li>OOP</li>         <li>OOP</li>          <tr>
+     <li>Database</li>    <li>Database</li>     <th>IWT</th>
+    </ul>                </ol>                  <th>OOP</th>
+                                                <th>Database</th>
+                                               </tr>
+                                              </table> >
+
+
+
+
+                                                                    43
+HTML
+• You will learn more about these elements and their
+  use in practical class
+
+• Learn more about HTML and HTML5
+  • https://www.w3schools.com/html/default.asp
+  • https://www.w3schools.com/html/html5_intro.asp
+
+
+                                                       44
+Question
+• Write html code to display following personal data
+  • Name      <!DOCTYPE html>
+  • age       <html>
+  • School      <head>
+                 <title>My first page</title>
+                </head>
+                <body>
+                 <h1>My name is Saman De Silva</h1>
+                 <p>I am 70 years old</p>
+                 <p>My School is ABC college</p>
+                </body>
+              </html>
+                                                       45
+Summary
+   • Data networks and the Internet
+   • Network Services and Protocols
+   • Web server and the Browser
+   • Markup languages
+
+
+
+
+                                      46
+    IT1100 - Internet and Web Technologies
+
+
+Web based Systems development
+
+
+                                             1
+Content
+
+ Distributed systems and their architectures
+
+ Main concepts of web
+
+ E-commerce systems and forms
+
+
+                                           2
+Distributed systems and
+   their architectures
+Distributed systems and their Architectures
+
+Computer based systems can be mainly divided into 2
+types, according to the distribution of the components
+
+  ▪ Standalone systems (or commonly referred as desktop
+    applications)
+
+  ▪ Distributed systems
+
+
+
+                                                          4
+Distributed Systems vs Standalone Systems
+Standalone Computer               Distributed system
+System
+▪   All the components are        ▪   The components are
+    executed within a single          distributed and executed in
+    device                            multiple devices
+▪ Do not need a network           ▪ Need a network
+
+▪    Usually one or tightly       ▪   Multiple and loosely coupled
+    coupled set of technologies       set of technologies are used to
+    are used to develop (JAVA,        develop (HTML+CSS+JS + PHP)
+                                                                    5
+    .NET)
+Distributed systems
+
+  – There are multiple, slightly different definitions and arguments
+    about the terms distributed systems and distributed computing
+
+  – We are here focusing on the systems, whose components are
+    distributed among multiple devices and using a network for the
+    communication between these components.
+
+
+
+
+                                                          6
+7
+Client-server architecture (2-tier)
+  • The basic architecture of the distributed systems is called
+    the client-server (or two-tier) architecture
+  • Usually the client (user) sends a request asking the server
+    for some service and the server responses with the
+    resources
+
+
+
+
+                                                              8
+Client-server architecture (2-tier)
+• There can be multiple clients, accessing the same server.
+• These clients may use different types of devices
+
+
+
+
+                                                              9
+Client-server architecture (3-tier)
+• 3-tier architecture is used, when there is a need for data persistence and
+  also to separate the application logic from the data
+• This can be seen as an extension of 2-tier architecture
+
+
+
+
+                                                                      10
+Client-server architecture (n-tier)
+• When there is a need for further separation and distribution of the
+  components, more tiers can be added and extend the 2-tier or 3-tier
+  architecture into an n-tier architecture
+
+
+
+
+                                                                   11
+Main concepts of Web
+Web server
+
+• Web server is a server software, which responses to
+  the HTTP requests.
+• Web server means
+  – The server software
+  – the hardware
+  – other software infrastructures
+     • which provide a platform to the server software to work and
+       perform well.
+
+
+                                                                     13
+ Domain name
+• The server computer has an IP address, which is used
+  to access and communicate with the server.
+  – Ex: 74.125.236.199
+• An IP address is not human friendly, therefore more
+  human friendly name is given for humans to identify the
+  server, which is called the domain name
+  – ex: www.google.com
+
+
+
+                                                         14
+Domain name
+There is a hierarchy for the domain names
+
+
+
+
+        (sub-domains)
+
+
+                                            15
+Domain Name System (DNS)
+• DNS is a network, which consists of Domain
+  Name Servers
+• DNS helps to map the domain name to the IP
+  address
+   – This process is called the address resolution
+     (DNS resolution )
+
+
+https://en.wikipedia.org/wiki/Domain_Name_System17
+Domain Name System (DNS)
+
+
+
+
+                           18
+Unified Resource Identifier (URI)
+• URI is a string of characters designed for unambiguous identification
+  of resources.
+
+• URI is extensible via the URI scheme
+
+
+
+
+                                                                   18
+Unified Resource Identifier (URN)
+
+  • Unified Resource Name(URN) is a persistent,
+    location-independent identifier
+
+         urn:nbn:de:101:3-2019075675872913
+
+         urn:uuid:6r4bc420-9c3a-12i9-97d9-0665700c9a66
+
+         ISBN 1-446-2776877-40
+Unified Resource Identifier (URL)
+ Unified Resource Locator (URL) can be seen as a web address,
+ which is a reference to a web resource that specifies its location
+ on a computer network.
+
+    – www.google.com/search?q=examples
+
+    – https://www.w3schools.com/html/default.asp
+
+    – https://en.wikipedia.org/wiki/URL
+
+
+                                                                  20
+URI, URL and URN example
+
+
+
+
+                           21
+Websites
+
+• Website can be seen as a collection of web pages with
+  static content
+• Early websites were entirely developed only using HTML
+  – Nowadays, some server-side application components
+    and databases are used to dynamically generate the
+    content
+  – However, still the content is not user tailored
+
+
+
+                                                         22
+Web Applications
+
+ • Web application is a single page or a collection of web
+   pages, with interactive components to dynamically
+   generate the content
+
+ • Users can enter data., process them, and get
+   information as the result using a web application
+
+
+
+
+                                                        23
+24
+Websites Vs. Web Applications
+
+• The processing is done by the application components in
+  – Client-side (in browser) [JS is used to develop]
+  – Server-side (in web server) [PHP, Java can be used]
+  – Both the client and the server sides
+
+
+• These application components may allow the user to interact
+  with the web application by entering data, selecting content,
+  clicking, dragging and dropping, etc…
+E-commerce systems
+     and forms
+E-commerce systems and forms
+Nowadays, the web technologies are used to develop
+many types of applications, including
+  – Email (Gmail, yahoo mail, outlook)
+  – Office tools (Google docs, google sheets, etc..)
+  – Games (Poki, Miniclips)
+  – Multimedia (YouTube)
+  – Social media and networking (Facebook, Tweeter)
+  – E-commerce (Amazon, e-bay)
+  – And many more……..
+
+                                                       27
+E-commerce systems
+  E-commerce is a large domain, which covers many
+  related concepts like
+    –   Internet marketing
+    –   Electronic fund transfer
+    –   Online transaction processing
+    –   And many more…..
+
+
+
+
+                                                    28
+E-commerce systems
+E-commerce systems provide online buying and
+selling over the internet.
+There is a large variety of types of e-
+commerce systems
+  –   Online goods/soft items(software, e-books, videos)
+  –   Retail services (travel, food, cloths)
+  –   Marketing services (advertising, auctions)
+  –   Customer services (help centers, online banking)
+  –   Many more…..
+                                                           29
+E-commerce systems
+ • E-commerce systems can also be categorized according
+   to the stakeholder engagement
+
+         – Business-to-Business (B2B) – between companies
+         – Business-to-Consumer (B2C) – traditional operations
+         – Consumer-to-Consumer (C2C) – via an online platform
+
+
+
+
+                                                                 30
+Advantages of e-commerce
+
+  • To customers
+    –   No queues
+    –   Reduced price
+    –   Global transactions
+    –   Available 24/7
+    –   Wide collection for easy selection
+
+
+
+
+                                             31
+Disadvantages of e-commerce
+
+  • To customers
+    –   Cannot examine the product
+    –   Lacks the shopping experience
+    –   Needs internet access
+    –   Can be addicted
+
+
+
+
+                                        32
+Advantages of e-commerce
+ • To businesses
+   – After the capital cost, maintenance cost is low
+   – Global customers
+   – Increased market share
+
+
+
+
+                                                       33
+Disadvantages of e-commerce
+  • To businesses
+     – For physical items, storing and distributing is
+       needed
+     – Need to update the system frequently
+     – Depends on the power and the internet
+
+
+
+
+                                                         34
+Web Forms
+• E-commerce systems use web forms to capture the customers’ data
+  and send to the server for processing
+
+
+
+
+                                                           35
+Web Forms
+• Forms use variety of fields (elements) or structures not only to
+  capture the users’ data, but also to display data and information
+
+• Input fields
+   – Text boxes, dropdown lists, option buttons, radio buttons, selectable
+     items, drag and drop items, file selectors, etc..
+
+
+• Data/information display structures
+   – Lists, tables, charts, images, files, etc..
+
+
+
+                                                                             36
+Web Forms Development
+• When developing HTML web forms, all the form elements are
+  wrapped by the parent element named “form”, which has 2 main
+  attributes
+
+<form method=“get” action=“controller.php”>
+
+
+                         The form is developed
+                       inside the form element
+
+
+
+</form>
+
+                                                           37
+Form method
+• Used to specify the type of the intended action the form
+  submission is needed
+Ex: available form methods in HTML
+
+• When submitting data, the form method specifies the
+  way the data should be submitted
+   1. GET
+   2. POST
+
+
+
+
+                                                             38
+Form method – get
+ • Default form method to submit data
+ • Data is visible on the address bar
+ • www.myDomain.com/controller.php?name=Saman&age=35
+ • Appends form-data into the URL in name/value pairs (Query string)
+ • The length of a URL is limited (about 3000 characters)
+ • Never use GET to send sensitive data! (will be visible in the URL)
+   • – GET is better for non-secure data
+ • Useful for form submissions where a user want to bookmark the result
+
+
+
+
+                                                                          44
+Form method – post
+
+ • Use POST method to send sensitive or
+   personal information.
+   – The POST method does not display the submitted
+     form data in the page address field.
+
+ • POST has no size limitations, and can be used to
+   send large amounts of data.
+
+ • Form submissions with POST cannot be bookmarked
+
+                                                      40
+Form action
+
+ • Specifies the address (URL) to submit the form
+    – Usually, a script file or a program
+
+
+ • This address points to a component in the server
+
+ • When the form is filled and submitted, this component will
+   receive the form values then process and responds with
+   the necessary output
+
+
+
+                                                                41
+Form submission
+
+ • There should be a submit button to submit the form to the
+   action end, using the specified form method
+
+
+      <input type="submit" value="Submit">
+
+
+
+
+                                                               42
+Form elements
+
+ • Many form fields are developed using the input
+   element
+  <input type="text">     Defines a one-line text input field
+
+  <input type="radio">    Defines a radio button (for selecting one of many
+                          choices)
+
+  <input type="submit">   Defines a submit button (for submitting the form)
+
+
+  • You will learn more possible form elements and
+    their use in the practical session
+  https://www.w3schools.com/htmL/html_forms.asp
+                                                                              49
+Form validation
+
+   • It is very important to validate the data values entered
+     into a form, before processing them
+
+   • Form validation can be done
+      – Using HTML5 in client-side (before submitting the form)
+      – Using JS in client-side (before submitting the form)
+      – Using a server-side component (usually the component pointed by
+        the form action) in the server (After submitting the form)
+
+
+
+
+                                                                51
+Form validation
+ Form validation – using HTML
+ <input type="text" name=“name" required>
+ <input type="text" name="name" value=“Sam" readonly>
+ <input type="text" name="name" value=“Sam“ disabled >
+ <input type="text" name="name" value=“Sam“ size=“20” >
+ <input type="text" name="name" value=“Sam“ maxlength=“50” >
+
+
+       • You will learn the use of JS and PHP to validate form
+         data, when you learn JS and PHP
+
+
+                                                               52
+   Summary
+
+• Distributed systems and their architectures
+
+• Main concepts of web
+
+• E-commerce systems and forms
+
+
+
+                                                47
+      IT1100 - Internet and Web Technologies
+
+                 Lecture 03
+Basics of the client-side development
+
+
+                                               1
+Content
+• What is CSS and Why CSS?
+
+• CSS statements with Properties and Values
+
+• How to use CSS?
+
+• Advanced selectors
+
+
+                                              2
+What is CSS and Why CSS?
+Introduction
+
+• Development of the browser-based web application
+ uses 3 main technologies in the client-side
+  1. HTML            – To develop the content
+  2. CSS             – To format/decorate the content
+  3. JavaScript (JS) – To develop the application (processing)
+     components
+
+                                                             4
+CSS
+
+•CSS – Cascading Style Sheets
+
+•Used to
+ • Decorate / Format web page content
+
+
+
+
+                                        5
+CSS and HTML
+
+
+
+
+               6
+Advantages of using CSS
+
+  ▪Reduce HTML formatting tags
+
+  ▪Easy modification
+
+  ▪Save lot of work and time
+
+  ▪Faster loading
+
+
+                                 7
+Without CSS   With CSS
+
+
+
+
+                         8
+CSS statements
+Selector, Properties and Values
+
+
+
+
+• The selector points to the HTML element you want to style.
+
+• The declaration block contains one or more declarations separated by semicolons.
+
+• Each declaration includes a CSS property name and a value, separated by a colon.
+
+• A CSS declaration always ends with a semicolon, and declaration blocks are surrounded
+ by curly braces.
+                                                                                     10
+Selector, Properties and Values
+   • Examples
+     body {
+        background-color: yellow;
+     }
+
+     h1 {
+         color: purple;
+         text-align: center;
+     }
+
+     p{
+          font-family: tahoma;
+          font-size: 25px;
+     }
+
+                    <h1>My First CSS Example</h1>
+                    <p>This is a paragraph.</p>     11
+Some formatting categories
+   ▪ Positioning
+   ▪ Size
+   ▪ Alignment
+   ▪ Font / Text
+   ▪ Color / Background / Border
+
+
+                                   12
+Activity
+Find the available CSS rules under the following categories
+  • Positioning
+  • Size
+  • Alignment
+  • Font / Text
+     • https://www.w3schools.com/css/css3_fonts.asp
+
+  • Color / Background / Border
+     • https://www.w3schools.com/css/css3_backgrounds.asp
+
+
+                                                              13
+How to use CSS?
+
+   1. Inline
+
+   2. Internal sheets
+
+   3. External sheets
+
+
+                        14
+How to use CSS?
+
+
+
+
+                  15
+Inline
+• defined within the "style" attribute of the
+  relevant element
+
+• Used as HTML attribute
+     <tag style = “CSS Statements” >
+
+
+
+
+                                                16
+Inline
+Examples
+
+• <h1 style="color:red;">Heading 01</h1>
+
+• <p style="color:blue; font-family: Tahoma;">
+      IWT Lecture 03
+  </p>
+
+                                                 17
+Question 1
+   <h1>my timetable</h1>
+
+   Ex. Apply below CSS rules to the element above
+        • text-align: center;
+        • color: #0000CC;
+        • font-family: Tahoma, Geneva, sans-serif;
+        • font-size: 32px;
+
+
+
+                                                     18
+<!DOCTYPE html>
+<html>
+<head>
+</head>
+<body>
+
+                                                Output
+<h1 style="text-align:center; color:#0000CC;
+font-family:Tahoma, Geneva, sans-serif; font-
+size:32px;">my timetable </h1>
+
+
+</body>
+</html>
+
+                                                         19
+Inline
+• <h1 style="text-align:center; color:#0000CC; font-family:Tahoma,
+  Geneva, sans-serif; font-size:32px;">my timetable</h1>
+
+• <h1 style="text-align: center;
+     color:#0000CC;
+     font-family: Tahoma, Geneva, sans-serif;
+     font-size: 32px;">my timetable
+   </h1>                                             This is more
+                                                      readable
+
+
+
+                                                                     20
+Internal style sheet
+• Why not inline CSS?
+  • Difficult to modify
+
+• Solution
+  • Internal style sheet
+
+
+
+
+                           21
+Internal style sheet
+        • Where to write?
+          1. In the head section of the HTML
+             document
+          2. Using the style element
+             <style></style>
+
+
+                                               22
+Internal style sheet
+      • How to write?
+       <head>
+           <style>
+           Selector
+           {
+                 /* CSS Statements */
+           }
+           </style>
+      </head>
+                                        23
+Internal style sheet
+• We use selectors to access the content
+
+• Selectors
+  1. By Element (h1, p, a)
+  2. By ID (#MainHeading, #Section1)
+  3. By Class (.Menu, .Header, .Footer)
+
+
+                                           24
+Internal style sheet [By element]
+       <!DOCTYPE html>
+       <html>
+       <head>
+        <style>
+         a{
+                                                Output
+                 color:#F00;
+         }
+        </style>
+       </head>
+       <body>
+
+       <a href="www.sliit.lk">visit SLIIT</a>
+
+       </body>
+       </html>
+
+                                                         25
+Internal style sheet [By ID]
+• CSS in head <style></style>
+      #ParaMain{
+          color:#F00;
+      }
+
+
+• Use the ID attribute for the element in the body
+  • ID should be unique
+     <p id="ParaMain">My paragraph </p>
+
+                                                     26
+Internal style sheet [By ID]
+           <!DOCTYPE html>
+           <html>
+           <head>
+            <style>
+             #ParaMain{
+                 color:#F00;
+             }
+            </style>
+           </head>
+           <body>                               Output
+
+           <p id="ParaMain">My paragraph </p>
+           <p >My paragraph </p>
+           <p>My paragraph </p>
+
+           </body>
+           </html>
+                                                         27
+Internal style sheet [By class]
+• CSS in head <style></style>
+              .MainFont
+              {
+                    font:sans-serif;
+                    font-size:12px;
+              }
+
+Use the class attribute for the element(s) in the body
+  • There can be multiple element, who belong to the same class
+      <p class="MainFont">My paragraph </p>
+
+     <a class="MainFont" href="www.google.com">Google</a>
+                                                                  28
+Internal style sheet [By class]
+    <!DOCTYPE html> <html> <head>
+     <style>
+     .MainFont_1
+     {
+         font-size:12px; color:blue;
+     }                                                         Output
+    .MainFont_2
+     { font-size:12px; color:red; }
+     </style>
+    </head> <body>
+      <p class="MainFont_1">My paragraph </p>
+      <a class="MainFont_1" href="www.google.com">Google</a>
+      <a class="MainFont_2" href="www.google.com">Google</a>
+    </body> </html>
+
+
+                                                                        29
+External style sheets
+
+ Why External?
+   • Easy to modify
+   • Uniform formatting in the site
+   • Design themes
+   • Faster loading
+
+
+                                      30
+External style sheets
+CSS is coded in an external file
+  • Extension of the file should be .css
+  • The code in the file starts with the line
+     @charset "utf-8";
+
+
+
+
+                                                31
+3.3. External style sheets
+  @charset "utf-8";
+  /* CSS Comments*/
+
+  .MainFont
+  {
+     font: Tahoma, Geneva, sans-serif;
+     font-size: 12px;
+  }
+
+                                         32
+External style sheets
+How to link the external CSS file with the web page?
+
+•     within the <link> element, inside the <head> section
+
+    <head>
+     <link rel="stylesheet" href="CSSMain.css">
+    </head>
+
+
+                                                       33
+                                                             .MainFont
+                                                             {
+                                                                    font: Tahoma, Geneva, sans-serif;
+                                                                    font-size: 12px;
+                                                             }
+                                                             .MainFont_1
+                                                               {
+                                                                    font:Tahoma, Geneva, sans-serif;
+                                                                    font-size:12px;
+<!DOCTYPE html>                                                      color:blue;
+                                                               }
+<html>                                                       .MainFont_2
+                                                               {
+<head>                                                              font:Tahoma, Geneva, sans-serif;
+                                                                    font-size:12px;
+          <link rel="stylesheet" href="html_external.css">           color:red;
+                                                               }
+</head>
+<body>
+ <p class="MainFont">My paragraph </p>                                          Output
+ <a class="MainFont_1" href="www.google.com">Google</a>
+ <a class="MainFont_2" href="www.google.com">Google</a>
+</body>
+</html>
+
+                                                                                                        34
+Advanced Selectors
+
+
+
+
+                     35
+Pseudo Elements
+
+• A CSS pseudo-element is used to style specified parts of
+ an element.
+
+• For example, it can be used to:
+  • Style the first letter, or line, of an element
+
+  • Insert content before, or after, the content of an element
+
+
+                                                                 36
+Pseudo Elements
+Notation
+      Selector::pseudo-element {
+          /* CSS Statements */
+      }
+
+
+
+            p::first-line {
+              color: red;
+            }
+                    <p>Year one Semester 02 modules. <br>
+                    There are 4 modules. </p>
+
+
+                                                            37
+Pseudo Classes
+
+• A CSS pseudo-element is used to used to define a
+ special state of an element.
+
+• For example, it can be used to:
+  • Style an element when a user mouses over it
+  • Style visited and unvisited links differently
+
+                                                     38
+Pseudo Classes
+Notation
+      Selector:pseudo-class {
+          /* CSS Statements */
+      }
+
+
+     /* mouse over link */
+     a:hover
+     {
+       background-color: red;
+     }
+                                 39
+Example 01
+                                                                  <!DOCTYPE html>
+                                                                  <html>
+                                                                  <head>
+<!DOCTYPE html>                                                   <style>
+<html>                                                            h1, p {
+<head>                                                              color: red;
+<style>                                                           }
+         • of all <p> and <h1> elements, to "red". Group the selectors to minimize code.
+                                                                  </style>
+</style>                                                          </head>
+</head>                                                           <body>
+<body>
+                                                                 <h1>This is a heading</h1>
+<h1>This is a heading</h1>                                       <h2>This is a smaller heading</h2>
+<h2>This is a smaller heading</h2>                               <p>This is a paragraph.</p>
+<p>This is a paragraph.</p>                                      <p>This is another paragraph.</p>
+<p>This is another paragraph.</p>
+                                                                 </body>
+</body>                                                          </html>
+</html>
+
+
+
+
+                                                                                                      40
+Example 02                               <!DOCTYPE html>
+                                         <html>
+                                         <head>
+<!DOCTYPE html>                          <style>
+<html>                                   #para1 {
+<head>                                     color: red;
+<style>                                  }
+                                         </style>
+</style>                                 </head>
+</head>                                  <body>
+<body>
+                                         <h1>This is a Heading</h1>
+<h1>This is a Heading</h1>               <p id="para1">This is a paragraph.</p>
+<p id="para1">This is a paragraph.</p>   <p>This is another paragraph.</p>
+<p>This is another paragraph.</p>
+                                         </body>
+</body>                                  </html>
+</html>
+
+
+
+
+                                                                                  41
+Exercise   <!DOCTYPE html>
+           <html>
+           <head> <style>
+           h1 {
+             text-transform: uppercase;
+                                               Result:
+           }
+           p{
+             text-transform: capitalize;
+           }
+           </style> </head>
+           <body>
+           <h1>This is a Heading</h1>
+           <p>This is a paragraph.</p>
+           <p>This is another paragraph.</p>
+           </body>
+           </html>
+                                                         42
+CSS – Summary
+• What is and Why CSS?
+
+• CSS statements with Properties and Values
+
+• How to use CSS?
+
+• Advanced selectors
+
+
+                                              43
+IT1100 - Internet and Web Technologies
+
+         Lecture 04
+     JavaScript – Part 1
+
+
+                                         1
+Content
+
+ • Introduction to the JavaScript
+
+ • Variables in JS
+
+ • Operators in JS
+
+ • Control structures in JS
+
+
+                                    2
+ Using Console Tab of Web Browsers
+• All the popular web browsers have built-in JavaScript engines. Hence,
+  you can run JavaScript on a browser. To run JavaScript on a browser,
+• Open your favorite browser (here we use Google Chrome).
+• Open the developer tools by right clicking on an empty area and
+  select Inspect. Shortcut: F12.
+Using Console Tab of Web Browsers
+• On the developer tools, go to the console tab. Then, write JavaScript
+  code and press enter to run the code.
+Why JavaScript?
+Methods of using JavaScript
+Methods of using JavaScript
+
+1. Internal Script
+     • Scripts in the <body> section
+
+     • Scripts in the <head> section
+
+
+1. External Script files
+
+                                       7
+Internal script
+•   JavaScript is embedded into the HTML document using
+    the script element
+
+          <script >
+
+                      //JS code
+
+          </script>
+
+
+                                                          8
+Internal script Example in the <head> section
+<html>
+<head>
+<title>Internal JavaScript</title>
+<script>
+    document.write("Internal JavaScript in the head section");   output
+</script>
+</head>
+
+
+<body>
+    <h3 style="color:red;"> JavaScript </h3>
+</body>
+</html>
+
+                                                                          9
+Internal script Example in the <body> section
+<html>
+<head>
+<title>Internal JavaScript</title>
+</head>
+                                                               output
+<body>
+ <h3 style="color:purple;"> JavaScript </h3>
+ <script>
+  document.write("Internal JavaScript in the body section");
+ </script>
+</body>
+</html>
+
+
+                                                                        10
+External script
+• The external JS file should use the extension as .js
+
+
+• External file is linked to the web page in head using
+ the script element
+
+• The script element uses the src attribute to specify the
+ URL of the source JS file
+          src=“<Location>/<FileName>.js”
+                                                          11
+External script
+External script file linking
+
+<head>
+     <script src=“…/ClientScripts/MainJS.js”> </script>
+</head>
+
+• The same JS file can be linked to multiple pages
+
+
+                                                          12
+External JavaScript Example
+<html>                                       Page.html
+<head>
+    <title>
+         external script example                                           output
+    </title>
+</head>
+<body>
+    <h4 style="color:red">External JavaScript</h4>
+    <script src="ex1.js"></script>
+</body>
+</html>
+
+
+
+
+               document.write("This is from External Javascript File");   ex1.js
+
+
+                                                                                    13
+Variables in JS
+Data types in JS
+  1. Numerical
+     •   Integers – 1, 2, 3, -56, -135, 3464
+     •   Floating point/Decimal – 34.46, -65.135
+  2. Strings
+     •   Single characters – “a”, “b”, “c”, “2”, “7”
+     •   Multiple characters – “abc”, “12/04/2012”, “34”
+  3. Boolean – true / false
+  4. Null
+  5. Undefined
+
+
+                                                           15
+Data types
+Note:
+• JavaScript does not make a distinction between integer
+  values and floating point values.
+• All numbers in JavaScript are represented as floating-
+  point values.
+
+
+
+                                                           16
+Variable declaration
+The keyword var and let is used to declare a variable
+• Examples
+  • var age;
+  • var smallNumber;
+  • var initial
+  • var name
+  • var isPassed;
+  • var num1, num2, num3;
+
+
+                                                        17
+Standars for the variable name
+• You should not use any of the JavaScript
+reserved keywords as a variable name.
+
+• No spaces
+
+• Meaningful
+
+• Use camel case
+
+
+
+
+                                             18
+Variable Initialization
+
+      var age = 20;
+      var height = 5.5;
+      var initial = "K";
+      var name = "Kamal";
+      var isPassed = true;
+
+
+
+                             19
+Assign values to the variables
+
+       age = 20;
+       height = 5.5;
+       initial = "K";
+       name = "Kamal";
+       isPassed = true;
+
+
+                                 20
+JavaScript Constant Variables
+The const keyword was also introduced in the ES6(ES2015) version to
+create constants. For example,
+const x = 5;
+x = 10; // Error! constant cannot be changed
+console.log(x)
+
+
+Also, you cannot declare a constant without initializing it. For example
+const x; // Error! Missing initializer in const declaration
+x = 5;
+console.log(x)
+
+                                                                           21
+Read and use the variable value
+var age = 20; //Declare and initialize the variable
+document.write(age);
+
+age = 25; //Assign a new value to the variable
+document.write("<br>Modified age = " + age);
+
+
+
+
+                                                      22
+           <html>
+
+JS is a    <head><title>JavaScript Page</title> </head>
+           <body><script type="text/javascript">
+                                                                 output
+weakly                                document.write("4"/3);
+
+typed                                 document.write("<br>");
+                                      document.write("5" +5);
+language                              document.write("<br>");
+                                      document.write("5"- 3);
+                                      document.write("<br>");
+                                      document.write("5"*"5");
+                                      document.write("<br>");
+                                      document.write(4*3);
+                                      document.write("<br>");
+                                      document.write(5* "5");
+            </script>
+             <h1>Hello world</h1>
+           </body>
+           </html>                                                        23
+JavaScript popup boxes
+  • Alert box
+  • alert (“This is an important message !”);
+
+
+
+  • Confirm box
+  • var response=confirm("Press a button");
+
+
+
+  • Prompt box
+  • var name=prompt("enter your name",“Sir");
+
+
+
+
+                                                24
+Operators in JS
+• Arithmetic Operators
+
+• Assignment Operators
+
+• Comparison Operators
+
+• Logical Operators
+
+                         26
+Arithmetic Operators
+
+
+
+
+                       27
+Assignment Operators
+
+
+
+
+                       28
+Comparison Operators
+
+
+
+
+                       http://www.w3schools.com/js/js_operators.asp
+
+                                                                      29
+Logical Operators
+
+
+
+
+                    http://www.w3schools.com/js/js_operators.asp
+
+
+                                                                   30
+Control Structures in JS
+Selection / Branching
+  • Simple if-else
+  • If-else ladder
+  • Nested if-else
+  • Switch
+
+Repetition / Iteration / Looping
+  • While loop
+  • For loop
+                                   32
+Simple if-else
+
+• Used to divide the algorithm execution path into
+  branches based on conditions
+
+• Conditions produce Boolean results
+
+• If the condition is true – we can do something
+
+• Else we can do some other thing
+                                                     33
+Simple if-else
+
+if (<Condition>)
+{
+       //Do something
+}
+else
+{
+       //Do some other thing
+}
+
+• Else is optional
+                               34
+Simple if-else example
+
+• User enters the mark for Maths.
+  • If the mark is greater than or equals 50 then display a
+    message “Pass”
+
+  • Else display a message “Fail”
+
+
+
+
+                                                              35
+Simple if-else example
+       if(mark >= 50)
+       {
+         document.write ("Pass");
+       }
+       else
+       {
+            document.write ("Fail");
+       }
+                                       36
+Simple if-else example
+// check is the number is positive or negative/zero
+ const number = prompt("Enter a number: ");
+
+// check if number is greater than 0
+ if (number > 0) {
+         console.log("The number is positive");
+ } // if number is not greater than 0
+
+else {
+         console.log("The number is either a negative number or 0");
+}
+
+console.log("The if...else statement is easy");
+                                                                       37
+Nested if-else
+                                                 Start
+
+
+                       true                                          false
+                                          If (Condition)
+
+
+
+              If (Condition)                             true          If (Condition)
+
+  true                                                                                           false
+                               false
+                                                           Perform
+                                                                                        Perform actions
+                                                           actions
+    Perform                            Perform
+    actions                            actions
+
+
+
+
+                                                 Stop
+                                                                                                          38
+Nested if-else
+    if(<Condition1>)
+    {
+          if(<Condition2>)   { //Actions }
+          else { //Actions   }
+    }
+    else
+    {
+          if(<Condition3>)   { //Actions }
+          else { //Actions    }
+    }
+
+
+                                             39
+Nested if-else
+• Are these equivalent?
+
+
+
+
+                          40
+                         <html>
+Nested if-else example   <body>
+                         <script type="text/javascript">
+                         var d = new Date();
+                         var time = d.getHours();
+                         if (time<10)
+          output         {
+                             document.write("<b>Good morning</b>");
+                         }
+                         else if (time>=10 && time<16)
+                               {
+                                  document.write("<b>Good day</b>");
+                               }
+                               else
+                               {
+                                  document.write("<b>Hello World!</b>");
+                               }
+                         </script>
+                         <p>
+                         This example demonstrates the if..else if...else statement.
+                         </p>
+                         </body>                                               41
+                         </html>
+Switch
+ switch(n)
+ {
+ case 1:
+   execute code block 1
+   break;
+ case 2:
+   execute code block 2
+   break;
+ default:
+   code to be executed if n is different
+   from case 1 and 2
+ }
+
+
+
+                                           42
+Switch example
+          var grade=“B”;
+          switch (grade)
+              {
+              case "A":
+                  alert("Excellent");
+                  break;
+
+              case "B":
+                  alert("Good");
+                  break;
+
+              default:
+                  alert("Average");
+                  break;
+          }
+                                        43
+          <html>
+Switch    <body>
+          <script type="text/javascript">
+
+example   var d = new Date();
+          theDay=d.getDay();
+          switch (theDay)
+          {
+          case 5:
+            document.write("<b>Finally Friday</b>");
+            break;
+          case 6:
+            document.write("<b>Super Saturday</b>");
+            break;
+          case 0:
+            document.write("<b>Sleepy Sunday</b>");
+            break;
+          default:
+            document.write("<b>I'm really looking forward to this weekend!</b>");
+          }
+          </script>
+          <p>This JavaScript will generate a different greeting based on what day it is. Note that
+             Sunday=0, Monday=1, Tuesday=2, etc.</p>
+          </body>
+                                                                                             44
+          </html>
+while loop
+ • The purpose of a while
+   loop is to execute a
+   statement or code
+   block repeatedly as
+   long as an expression
+   is true.
+ • Once the expression
+   becomes false, the
+   loop terminates.
+
+
+                            45
+while loop example
+ <html>
+ <body>
+ <table border="5">                                       output
+ <script>
+  var i=1;
+   while (i<=6)
+    {
+        document.write("<tr>”);
+        document.write("<td>col 1 row " + i + "</td>")
+        document.write("<td>col 2 row " + i + “</td>");
+        document.write("</tr>");
+       i++;
+       }
+ </script>
+ </table>
+ </body>
+ </html>
+
+                                                                   46
+for loop
+
+for (var=startvalue; var<=endvalue; var=var+increment)
+{
+        //code to be executed
+}
+
+
+
+
+                                                         47
+for loop example
+ <html>
+ <body>                                                 output
+ <table border="5">
+  <script>
+          for (i=0;i<=6;i++)
+     {
+      document.write("<tr>");
+      document.write("<td>col 1 row " + i + "</td>")
+      document.write("<td>col 2 row " + i + "</td>");
+      document.write("</tr>");
+      //i++;
+     }
+  </script>
+ </table>
+ </body>
+ </html>
+
+
+
+                                                                 48
+• The break Statement
+ • The break statement will break the loop and continue executing
+   the code that follows the loop (if any).
+
+
+
+• The continue Statement
+ • The continue statement will break the current loop and
+   continue with the next iteration.
+
+
+
+
+                                                                    49
+Break statement example
+             <html>
+
+             <body>
+
+             <script
+
+             for (i=0;i<=10;i++){
+                                                         output
+                  if (i==8)
+
+                  {
+
+                              break;
+
+                  }
+
+                 document.write("The number is " + i);
+
+                 document.write("<br />");
+
+             }
+
+             document.write("Break….");
+
+             </script>
+
+             </body>
+                                                                  50
+             </html>
+Continue statement example
+           <!DOCTYPE html>
+           <html>
+           <body>
+           <script>
+           var i=0                                     output
+           for (i=0;i<=10;i++)
+           {
+                if (i==3)
+                {
+                    continue;
+                }
+               document.write("The number is " + i);
+               document.write("<br />");
+           }
+           </script>
+           </body>
+           </html>                                              51
+Summary
+
+  • Introduction to the JavaScript
+
+  • Variables in JS
+
+  • Operators in JS
+
+  • Control structures in JS
+
+                                     52
+IT1100 - Internet and Web Technologies
+
+         Lecture 05
+     JavaScript – Part II
+
+
+                                         1
+Content
+
+ • JavaScript Strings
+
+ • Arrays in JS
+
+ • DOM API
+
+ • Event handling
+
+
+                        2
+JavaScript Strings
+JavaScript Strings
+• JavaScript strings are used for storing and manipulating text.
+• zero or more characters written inside quotes , using single or double quate.
+• var Description=a“IWT";
+  var Description = ‘Lecture 05’
+  var Description = 'He is called “Mahela”’
+• You can use quotes inside a string, as long as they don't match the quotes
+  surrounding the String
+Length of a String
+var txt = "lets watch legend playing";
+var Length=txt.length;
+  Escape Character
+• Since strings must be written within quotes, JavaScript will
+  misunderstand the following string:
+      var s1 = "IWT Lecture 05 “JavaScript” Part 2.”;
+      var s2 = "IWT Lecture 05 'JavaScript' Part 2”;
+      var s3 = "IWT Lecture 05 \JavaScript\ Part 2";
+
+
+
+To avoid that problem, use the backslash escape character.
+
+      var s1 = "IWT Lecture 05 \"JavaScript\" Part 2";
+
+      var s2 = "IWT Lecture 05 \'JavaScript\' Part 2";
+
+      var s3 = "IWT Lecture 05 \\JavaScript\\ Part 2";
+ String Search Methods
+• The indexOf() method returns the index (the position)
+  of the first occurrence
+    var text = "this lecture is JavaScript lecture";
+    text.indexOf("lecture")
+
+
+
+• The lastIndexOf() method returns the index of the last
+  occurrence of a specified text in a string
+    var text = "this lecture is JavaScript lecture";
+    text.lastIndexOf("lecture")
+
+Both methods return -1 if the text is not found
+ Converting Variables to Numbers
+• The Number() method returns a number converted
+  from its argument.
+   Number(“10") // returns 10
+   Number(“IWT") // returns NaN
+
+
+• The parseInt() parses a string and returns a
+  whole number.
+   parseInt("10");    // returns 10
+   parseInt("10.33"); // returns 10
+Arrays in JS
+ JavaScript Arrays
+• An array is a special variable, which can hold more
+  than one value at a time.
+  • var array_name = [item1, item2, ...];
+  • var cars = [“Toyota", "Volvo"];
+
+  How to insert new elements
+  • Cars[2]=“BMW”;
+
+  How to display element ant it’s value
+  • Document.write(Cars[0]);
+                                                        9
+<!DOCTYPE html>
+<html>
+<body>
+<h2>JavaScript Arrays</h2>
+<p>The best way to loop through an array is using a standard for loop:</p>
+<p id="demo"></p>
+<script>
+var fruits, text, fLen, i;
+fruits = ["Banana", "Orange", "Apple", "Mango"];
+fLen = fruits.length;
+                                                                             output
+for (i = 0; i < fLen; i++) {
+    document.write(fruits[i]+"</br>");
+}
+</script>
+</body>
+</html>
+
+                                                                                      10
+<!DOCTYPE html>
+<html>
+<body>
+<h2>JavaScript Arrays</h2>
+<p>The best way to loop through an array is using a standard for loop:</p>
+<p id="demo"></p>
+<script>
+var fruits, text, fLen, i;
+fruits = ["Banana", "Orange", "Apple", "Mango"];
+fLen = fruits.length;
+text = "<ul>";                                                               output
+for (i = 0; i < fLen; i++) {
+    text += "<li>" + fruits[i] + "</li>";
+}
+text += "</ul>";
+document.getElementById("demo").innerHTML = text;
+</script>
+</body>
+</html>
+
+
+
+                                                                                      11
+<!DOCTYPE html>
+<html>
+<body>
+<h2>JavaScript For/In Loop</h2>
+<p>The for/in statement loops through the properties of an
+object.</p>
+
+<script>
+var txt = "";
+var person = ["John","Doe","James"];
+                                                             output
+var x;
+for (x in person) {
+    txt = txt + person[x] + " ";
+}
+document.write(txt);
+</script>
+</body>
+</html>
+                                                                      12
+Functions in JS
+Functions
+ • A function is a group of reusable code which can be called anywhere
+   in your program.
+
+
+ • This eliminates the need of writing the same code again and again.
+
+
+ • It helps programmers in writing modular codes.
+
+
+ • Functions allow a programmer to divide a big program into a number
+   of small and manageable functions.
+
+                                                                         14
+Function Definition
+• Before we use a function, we need to define it.
+• The most common way to define a function in JavaScript is by using the
+  function keyword, followed by a unique function name, a list of parameters
+  (that might be empty), and a statement block surrounded by curly braces.
+
+
+                  <script>
+                  function function_name (parameter-list)
+                  {
+                      statement(s)
+                  }
+                  </script>
+
+
+                                                                               15
+Calling a Function
+• To invoke a function somewhere later in the script, you would simply need to
+  write the name of that function as shown in the code.
+                 <html>
+                 <head>
+                 <script>
+                 function sayHello()
+                 {                                                  output
+                    document.write ("Hello      there!");
+                 }
+                 </script>
+                 </head>
+                 <body>
+                 <script>
+                     sayHello();
+                 </script>
+                 </body>
+                 </html>
+                                                                                 16
+Function Parameters
+
+ • Till now, we have seen functions without parameters.
+ • But there is a facility to pass different parameters while calling a
+  function.
+ • These passed parameters can be captured inside the function
+ • Any manipulation can be done over those parameters.
+ • A function can take multiple parameters separated by comma.
+
+
+
+                                                                          17
+Function Parameters Example
+  <html>
+  <head>
+  <script type="text/javascript">
+  function sayHello(name, age)
+  {
+  document.write (name + " is " + age + " years old.");
+  }                                                       output
+  </script></script>
+  </head>
+  <body>
+  <script>
+        sayHello('Zara', 7);
+  </script>
+  </body>
+  </html>
+
+                                                                   18
+ The return Statement
+• A JavaScript function can have an optional return statement.
+
+• This is required if you want to return a value from a function.
+
+• This statement should be the last statement in a function.
+
+• For example, you can pass two numbers in a function and
+ then you can expect the function to return their
+ multiplication in your calling program.
+
+                                                                19
+             <html>
+
+
+The return
+             <head>
+             <script>
+
+
+Statement
+             function concatenate(first, last)
+             {
+             var full;
+             full = first + last;
+             return full;
+             }
+             function secondFunction()
+             {                                              output
+             var result;
+             result = concatenate('Zara ', 'Ali Khan');   Zara Ali Khan
+             document.write (result );
+             }
+             </script>
+             </head>
+             <body>
+             <script>
+             secondFunction();
+             </script>
+             </body>
+             </html>                                                      20
+Document Object
+    Model
+Document Object Model
+ When a web page is loaded, the browser creates a Document Object Model
+ of the page.
+
+ The HTML DOM model is constructed as a tree of Objects:
+
+
+
+
+                                                                          22
+Document Object Model
+In the DOM, all HTML elements are defined as objects.
+
+The programming interface is the properties and methods of each object.
+
+         <p
+         <p id="para1"></p>
+            id="para1"></p>
+         <script>
+         <script>
+         document.getElementById("para1").innerHTML
+         document.getElementById("para1").innerHTML == "Hello
+                                                       "Hello World!";
+                                                              World!";
+         </script>
+         </script>
+
+
+                        Method
+                        Method                 Property
+                                               Property
+
+
+
+
+                                                                          23
+DOM Methods
+
+
+
+
+              24
+DOM API
+  <form>
+        <input type=“text” id=“txtName”>
+        <div id=“divOutput”></div>
+  </form>
+  --------------------------------------------------------
+  //Read the value
+  var name = document.getElementById("txtName ").value;
+
+  //Display output
+  document.getElementById("divOutput").innerHTML = “Hello “+name;
+
+
+                                                                    25
+Event Handling
+Event Handling
+• Event handling is used to implement responses for the
+  user events
+  • Click, type, select, drag and drop, etc…
+
+
+Ex:
+• Read form values and validate before submitting the
+  form and display proper error messages
+
+
+                                                        27
+ Event Handling
+• Event handlers are used to handle the events, when
+  the events are triggered
+
+• There 2 main ways of developing event handlers in JS
+
+  1. DOM level 0 inline event handlers
+
+  2. Event registration using the addEventListener() function
+
+
+                                                            28
+DOM level 0 inline event handlers
+• DOM allows to assign events to HTML elements using
+  JavaScript:
+
+• HTML event attributes are used.
+  • onclick, onload, etc…
+
+
+<button onclick="alert('Hello');">Try it</button>
+
+
+                                                       29
+DOM level 0 inline event handlers
+• If there is more code to write, it is good to implement a function and
+  call that function in the event handler
+
+      <button onclick="myFunction();">Try it</button>
+      <script>
+      function myFunction() {
+             alert("Do whatever needed in this function");
+      }
+      </script>
+
+
+                                                                           30
+DOM level 0 inline event handlers
+     <html>
+     <head>
+     <script>
+     function myFunction() {
+         document.getElementById("demo").innerHTML = document.getElementById("inTxt").value;
+     }
+     </script>
+     </head>
+     <body>
+
+
+     <p id="demo"></p>
+
+
+     <input type="text" id="inTxt">
+
+
+     <button onclick="myFunction()">Click Me</button>
+     </body>
+     </html>
+
+                                                                                               31
+Event registration using addEventListener()
+
+• It is good the separate the JS from HTML as much as
+  possible, towards increasing the modifiability.
+
+• By using the addEventListener() function, we can
+  eliminate the HTML event attributes
+
+
+
+                                                        32
+Event registration using addEventListener()
+<button id="btnTest">Try it</button>
+<script>
+var btn = document.getElementById("btnTest");
+btn.addEventListener("click", function() {
+   alert("Do whatever needed in this function");
+}
+);
+</script>
+
+
+                                                   33
+Event registration using addEventListener()
+    <html>
+    <head>
+    </head>
+    <body>
+    <input type="text" id="inTxt">
+
+
+    <button id="myBtn">Click Me</button>
+
+
+    <p id="demo"></p>
+    <script>
+    document.getElementById("myBtn").addEventListener("click", function(){
+          document.getElementById("demo").innerHTML = document.getElementById("inTxt").value;
+    });
+    </script>
+    </body>
+    </html>
+                                                                                                34
+Summary
+
+  • JavaScript Arrays
+
+  • String and Numerical methods
+
+  • DOM API
+
+  • Event handling
+
+
+                                   35
+            Lecture 06
+PHP - Introduction
+   IT1100 Internet and Web technologies
+Content
+• Introduction
+
+• Variables and Constants
+
+• Operators
+
+• Control structures
+
+
+
+
+                            2
+Introduction
+• PHP is a scripting language for developing server-side components
+
+• The components developed with PHP should be hosted in a
+  compatible web server
+   • Apache, IIS
+
+
+NOTE: You will learn to host PHP application and access it, in the
+      practical class.
+
+
+                                                                      3
+What Can PHP Do?
+• Generate dynamic page content
+• Create, open, read, write, delete, and close files on the server
+• Collect form data
+• Send and receive cookies
+• Insert, delete, update or search data in your database
+• Restrict users to access some pages on your website
+• Encrypt data
+• You can output
+   • images, PDF files, Flash movies, text, XHTML and XML.
+
+
+
+                                                                     4
+How to run your first .php file
+1. Write and save php code as a .php file.
+2. Copy .php file into the web server.
+  • Ex.
+     • C:\xampp\htdocs\ita_demo
+3. Open a web browser
+4. Type the URL and call your .php file
+  • Ex
+     • http://localhost/ita_demo/lec_1/Test.php
+
+
+
+                                                  5
+PHP Execution flow
+                     6
+            1. The client requests a page that contains PHP tags.
+
+            2. The Web server will pass any page requests containing a
+                PHP file extension to the PHP processor.
+   PHP      3. PHP processor scans the page and processes all PHP tags.
+Execution       Might also retrieve information from a database.
+  flow      4. PHP processor returns only HTML and other client-side
+                technologies to the Web server.
+
+            5. The Web server passes the page back to the browser
+
+
+                                                                       7
+           •   The file/page with PHP script is saved to .php
+               extension
+           •   The script/code is written between the PHP tag
+
+
+PHP Code         <?php
+                    echo “<h1>Hello world</h1>”;
+                    // The output may contain HTML
+                 ?>
+
+
+
+
+                                                                8
+   PHP code can be written
+1. Inline with HTML
+   //Not recommended
+
+
+2. On the top of the file
+   //Like internal CSS sheets, JavaScripts
+
+
+3. As an external file
+   //Like external CSS sheets, JavaScripts
+
+
+                                             9
+Inline with HTML
+<html>
+                                         Output
+ <head></head>
+ <body>
+       <h1>PHP example</h1>
+       <?php
+          echo “<h1>Hello world</h1>”;
+       ?>
+ </body>
+</html>
+
+
+                                                  10
+PHP code on top of the page
+
+ <?php                                  Output
+         echo “<h1>Hello world</h1>”;
+ ?>
+ <html>
+    <head></head>
+    <body>
+       <h1>PHP example</h1>
+    </body>
+ </html>
+                                                 11
+PHP code in external file
+index.php                                              Output
+<?php
+ include(“Logic.php”); //Link the external file
+?>
+<html>
+ <head></head>                                    Logic.php
+ <body>
+       <h1>PHP example</h1>                       <?php
+</body>                                             echo “<h1>Hello world</h1>”;
+</html>                                           ?>
+
+
+
+                                                                           12
+Variables
+• Variable names must begin with a “$”
+• Must not start with a number or special characters ' < & , > ^
+• Must not contain spaces.
+• Must be less than 32 characters
+   ▪ $3_name       – incorrect
+   ▪ $name_        – correct
+   ▪ $name it      – incorrect
+   ▪ $name         – correct
+
+                                                                   13
+Variables
+• All user-defined functions, classes, and keywords are NOT case-sensitive.
+• All variables are case-sensitive.
+• Double quotes (") will replace a variable’s name with its value.
+   • $a=5;
+   • echo “$a”; //Will display 5
+
+• Single quotes (') will treat them literally (display exactly what you type).
+   • $a=5;
+   • echo ‘$a’; //Will display $a
+
+                                                                            14
+Data types
+• PHP is weakly types language
+
+• string                   $myString = "Hello world";
+• integers                 $myNumber = 21;
+• floating-point /double   $myNumber = 21.4;
+• boolean                  $gameOver = false;
+
+• How PHP determine the datatype?
+
+
+                                                        15
+PHP concatenation
+• PHP concatenation uses a dot “ .”   Output
+     <?php
+             $a = "Hello";
+             $b = "World";
+             $c = $a . " " . $b;
+             echo $c;
+     ?>
+
+
+                                               16
+Double-quoted and Single-quoted strings
+• Double quotes can be used within single-quoted strings and vice versa. Both
+  valid:
+       • $phrase = "It's time to go";
+       • $phrase = 'She said "OK“ ';
+• The following are not valid (error due to mismatch of quotes):
+       • $phrase = 'It's time to go';
+       • $phrase = "She said "OK“ ";
+• If you want to use the same quote within a quoted string you must escape it by
+  using a backslash.
+        • $phrase = 'It\'s time to go';
+        • $phrase = "He said \"OK\“ ";
+
+
+                                                                                   17
+      Question 1
+<?php                          <?php
+
+$variable = 'Saman';           $variable = 'Saman';
+echo 'My name is $variable';   echo "My name is $variable";
+
+?>                             ?>
+Output                         Output
+
+My name is $variable           My name is Saman
+
+
+
+
+                                                        18
+Constants
+ • Syntax:
+        define(name, value, case-insensitive)
+             •   Parameters:
+             •   name: Specifies the name of the constant
+             •   value: Specifies the value of the constant
+             •   case-insensitive: Specifies whether the constant name should be
+                 case-insensitive. Default is false
+
+
+ Examples:
+      define("UNI", "University of Westminster");
+      define("PRICE", 79.99);
+      echo UNI;
+      print UNI;
+                                                                               19
+Operators - Arithmetic Operators
+
+
+
+
+                                   20
+Assignment Operators
+
+
+
+
+                       http://www.w3schools.com/php/php_operators.asp
+
+
+                                                                        21
+Comparison Operators
+
+
+
+
+                       http://www.w3schools.com/php/php_operators.asp   22
+Logical Operators
+
+
+
+
+                    http://www.w3schools.com/php/php_operators.asp
+
+
+
+
+                                                            23
+Array Operators
+
+
+
+
+                  http://www.w3schools.com/php/php_operators.asp
+
+
+
+
+                                                                   24
+Control structures
+
+
+
+                     25
+Selection - simple if-else
+
+if ($number < 10)
+{
+       // code to be executed when the condition is true
+       echo "$number is less than ten";
+}
+else
+{
+       // code to be executed when the condition is true
+       echo "$number is not less than ten";
+}
+
+                                                           26
+                             <!DOCTYPE html>
+Selection - if-else ladder   <html>
+                             <body>
+
+                             <?php
+                             $t=date("H");
+
+                             if ($t<"10") {
+                                echo "Have a good morning!";
+                             } elseif ($t<"20") {
+                                echo "Have a good day!";
+                             } else {
+                                echo "Have a good night!";
+                             }
+                             ?>
+
+                             </body>
+                             </html>
+                                                          Output ?
+
+                                                                     27
+                     <!DOCTYPE html>
+                     <html>
+Selection - switch   <body>
+                     <?php
+                     $favcolor="red";
+                     switch ($favcolor) {
+                         case "red":
+                           echo "Your favorite    color is red!";
+                           break;
+                         case "blue":
+                           echo "Your favorite    color is blue!";
+                           break;
+                         case "green":
+                           echo "Your favorite    color is green!";
+                           break;
+                         default:
+                           echo "Your favorite    color is neither red, blue,
+                     or green!";
+                     }
+                     ?>
+                        </body>
+                     </html>
+
+                                                 Output ?
+
+                                                                        28
+                         <html>
+                         <head></head>
+
+Question 2               <body>
+
+                         <?php
+                         $x = rand(1,5); // random integer
+                         echo “x = $x <br/><br/>”;
+• What is the output ?   switch ($x)
+                         {
+                         case 1:
+                           echo "Number 1";
+                           break;
+                         case 2:
+                           echo "Number 2";
+                           break;
+                         case 3:
+                           echo "Number 3";
+                           break;
+                         default:
+                           echo "No number between 1 and 3";
+                           break;
+                         }
+                         ?>
+
+                         </body>
+                         </html>
+
+
+                                                               29
+Iteration- while
+
+
+while ($i <= 10)
+{
+      echo $i++;
+
+      $i++;
+}
+
+
+                   30
+Iteration- while
+ • Write a php code to get the following output
+    • Use a while loop
+    <!DOCTYPE html>
+    <html>
+    <body>
+    <?php
+    $x=1;
+    while($x<=5) {                                Output ?
+      echo "The number is: $x <br>";
+    $x++;
+    }
+    ?>
+    </body>
+    </html>
+
+
+
+                                                             31
+  Iteration- do while
+• Write a php code to get the following output
+   • Use a do-while loop
+  <!DOCTYPE html>
+  <html>
+  <body>
+  <?php
+  $x=4;
+                                                 Output ?
+  do {
+     echo "The number is: $x <br>";
+     $x++;
+  } while ($x<=5);
+  ?>
+  </body>
+  </html>
+
+                                                            32
+Iteration - for
+
+
+for ($i = 1; $i <= 10; $i++)
+{
+      echo $i;
+}
+
+
+
+                               33
+Iteration - for
+• Write a php code to get the following output
+   • Use a for loop
+ <!DOCTYPE html>
+ <html>                                          Output ?
+ <body>
+ <?php
+ for ($x=0; $x<=10; $x++) {
+    echo “The number is: $x <br>”;
+ }
+ ?>
+ </body>
+ </html>
+                                                            34
+ Iteration - foreach
+<!DOCTYPE html>
+<html>
+<body>
+<?php
+$colors = array("red","green","blue","yellow");
+foreach ($colors as $value) {                     Output ?
+   echo "$value <br>";
+}
+?>
+</body>
+</html>
+
+
+                                                             35
+ Continue and Break
+
+• Break ends execution of the current for, foreach, while, do-while or
+  switch structure.
+
+• Continue is used within looping structures to skip the rest of the
+  current loop iteration and continue execution at the condition
+  evaluation and then the beginning of the next iteration.
+
+
+
+
+                                                                         36
+<!DOCTYPE html>                        <!DOCTYPE html>
+<html>                                 <html>
+<body>                                 <body>
+<?php                                  <?php
+$i = 0;                                $i = 0;
+for ($i = 0;$i <= 5;$i++)              for ($i = 0;$i <= 5;$i++)
+{                                      {
+if ($i==2)                             if ($i==2)
+{                                      {
+break;                                 continue;
+} echo $i;                  Output ?   }                           Output ?
+echo "<br />";                         echo $i;
+}                                      echo "<br />";
+echo "End of for loop" ;               }
+?>                                     echo "End of for loop" ;
+</body>                                ?>
+</html>                                </body>
+                                       </html>
+
+
+
+                                                                         37
+Summary
+• Introduction
+
+• Variables and Constants
+
+• Operators
+
+• Control structures
+
+
+
+
+                            38
+         Lecture 07
+  PHP – Part 2
+IT1100 Internet and Web technologies
+Content
+
+ • Arrays
+
+ • Functions
+
+ • Superglobal variables and Form handling
+
+
+
+
+                                             2
+Arrays
+What is an Array?
+• An array is a special variable, which can hold more than one value at a time.
+
+
+There are two types of arrays in PHP
+   1. Numeric (indexed) Arrays
+   2. Associative Arrays
+
+Create an Array in PHP
+• In PHP, the array() function is used to create an array:
+   array();
+
+
+
+
+                                                                                  3
+Numeric (indexed) Arrays
+
+• //Declare array    5   2   8   1
+       $n=array();   0   1   2   3
+• //Assign values
+       $n[0] = 5;
+       $n[1] = 2;
+       $n[2] = 8;
+       $n[3] = 1;
+
+
+                                     4
+Numeric (indexed) Arrays
+//Declare and initialize array in a single statement
+      $n=array(2,5,8,5);
+
+     Value                 2              5            8   5
+     Index                 0              1            2   3
+
+• Can read the values of array using the index
+    echo $n[2] + $n[3] ;
+                           2              5            8   5
+                           0              1            2   3
+
+                                                               5
+Loop Through an Indexed Array
+<!DOCTYPE html>        Declare the array
+<html>
+<body>
+<?php
+ $colors = array("red","green","blue","yellow");
+ foreach ($colors as $value) {           Loop          Output
+   echo "$value <br>";                   through the
+ }                                       Array
+
+?>
+</body>
+</html>
+
+                                                          6
+  Loop Through an Indexed Array
+Use a for loop to loop through and print all the values of an indexed array
+ <!DOCTYPE html>
+ <html>
+ <body>
+ <?php
+        $subjects=array(“ITA",“DBMS",“ST");                                            Declare the array
+
+           $arrlength=count($subjects);                                                Get the array length
+
+           for($x=0;$x<$arrlength;$x++) {
+                  echo $subjects [$x];                                                 Loop through the Array
+                  echo "<br>";
+           }                                                                  Output
+ ?>
+ </body>
+ </html>
+
+
+                                                                                                           7
+Associative Arrays
+• For the index
+   • Instead of numerical values
+   • we can give string IDs for each and every item
+
+
+$marks = array("Maths"=>32, "Web"=>30);
+echo $marks["Maths"];
+echo $marks["Web"];
+
+
+
+                                                      8
+Associative Arrays
+$marks = array();
+                            65               23    76        Value
+$marks["Maths"]=65;
+                           Maths            Web   JAVA       Key/ID
+$marks["Web"]=23;
+$marks["JAVA"]=76;
+
+echo "Maths: " .$marks["Maths"]. "<br/>".
+      "Web: " .$marks["Web"]. "<br/>".
+      "JAVA: " .$marks["JAVA"]. "<br/>";
+
+                                                         9
+ Loop Through an Associative Array
+  To loop through and print all the values of an associative array, you could use a foreach loop, like this:
+
+<!DOCTYPE html>
+<html>
+<body>
+<?php
+      $age=array("Peter"=>"35","Ben"=>"37","Joe"=>"43");
+      foreach($age as $x=>$x_value) {
+           echo "Key=" . $x . ", Value=" . $x_value;
+           echo "<br>";
+      }
+?>
+                                               Output ?
+</body>
+</html>
+
+                                                                                                               10
+Functions
+ • Function is a block of statements that can be used repeatedly in a
+   program.
+ • PHP Built-in Functions
+    • PHP has over 1000 built-in functions that can be called directly,
+      from within a script, to perform a specific task.
+
+ • PHP User Defined Functions
+    • Besides the built-in PHP functions, it is possible to create your own
+      functions.
+
+                                                                          11
+User Defined Functions
+ • function is a block of statements that can be used repeatedly in a
+   program.
+ • A function will not execute immediately when a page loads.
+ • A function will be executed by a call to the function.
+
+    function testFunc()                                   function
+    {
+             echo “Function works well”;
+    }
+
+
+    testFunc();                                          call to the function
+
+                                                                        12
+User Defined Functions
+  <!DOCTYPE html>
+  <html>
+  <body>
+
+
+  <?php
+  function writeMsg() {      function
+      echo "Hello world!";
+  }
+
+
+  writeMsg();                call the function
+  ?>
+
+
+  </body>
+  </html>
+
+                                            13
+Global variables
+• Subject to the context in which a variable is declared it will have a
+ scope that is either local or global.
+
+• If it is declared within the constraints of a function, it will have local
+ scope and will not be recognized outside of its constraints.
+
+• If you wish to declare a variable with scope beyond its constraints use
+ the term global.
+
+
+                                                                               14
+Global variables
+
+$name = “Kamal”;
+$age = 22;
+
+function testFunc()
+{
+        global $name, $age;                                   Output
+        $greet = “Hello ”;
+        echo $greet . “Name: ” . $name . “ - Age: ” . $age;
+}
+
+testFunc();
+
+                                                                       15
+User Defined Functions with Parameters
+         <!DOCTYPE html>
+         <html>
+         <body>
+
+         <?php
+         function sum($x, $y) {
+           $z = $x + $y;
+           return $z;
+         }
+                                                  Output
+         echo "5 + 10 = " . sum(5,10) . "<br>";
+         echo "7 + 13 = " . sum(7,13) . "<br>";   5 + 10 = 15
+         echo "2 + 4 = " . sum(2,4);              7 + 13 = 20
+         ?>                                       2+4=6
+
+         </body>
+         </html>
+
+
+                                                                16
+Superglobal variables
+
+• There are some built-in variables in PHP environment, which provides
+  some special features, they are called superglobal variables.
+
+• They are basically associative arrays
+
+• You will learn different types of supergloabal variables throughout the
+  module
+
+
+                                                                            17
+Reading forms with Superglobal variables
+• HTML form on a web page allows a user to enter data that is sent to a
+  server for processing.
+$_GET[“index”]
+• An array of variables passed to the current script via the URL
+  parameters.
+
+$_POST[“index”]
+• An array of variables passed to the current script via the HTTP POST
+  method.
+
+
+                                                                          18
+Reading forms
+Methods to read forms
+
+1. HTML form (frond end) + PHP backend to read form inputs
+
+2. PHP form + PHP backend to read form inputs
+
+
+
+
+                                                             19
+Reading forms (HTML + PHP)
+
+index.html                                    process.php
+
+<form method=“get" action=“process.php">      <?php
+                                                      echo “Hello “. $_GET[“txtName”];
+   Name: <input type="text" name="txtName">
+                                              ?>
+   <br>
+   <input type="submit">
+</form>
+
+
+
+
+                                                                                  20
+Reading forms (HTML + PHP)
+process.php
+<!DOCTYPE html>
+
+<html>
+
+<body>
+
+<form method="post" action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]);?>">
+     Name: <input type="text" name="txtName">
+
+     <br>
+
+     <input type="submit" value="Submit" name="btnSubmit">
+
+</form>
+
+<?php                                                                                • htmlspecialchars — Convert special
+               if(isset($_POST["btnSubmit"])){                                         characters to HTML entities
+
+                            echo "<h1> Hi " . $_POST["txtName"];                     • $_SERVER["PHP_SELF"] - a super
+               }                                                                       global variable that returns the
+?>
+                                                                                       filename of the currently executing
+                                                                                       script
+</body>
+                                                                                                                   21
+</html>
+ Reading forms - textbox
+<!DOCTYPE html>
+<html>
+<body>
+<form method="post" action="php-html-form-textbox-example.php">
+Name: <input type="text" name="fname">
+     <input type="submit">
+</form>
+</body>
+</html>
+                                                  <?php
+                                                     $name = $_REQUEST['fname'];
+                                                     echo $name;
+                                                  ?>
+
+                                                                                   22
+      Reading forms – textarea
+<html>
+<h2>PHP HTML Form textarea Example</h2>
+<form name="php-html-form-textarea-example" method="POST" action="php-html-form-textarea-example.php">
+   Enter Your Full Name :
+   <input name="Fullname" type="text" value=""><br/><br/>
+   Enter Your Address :
+   <textarea name="UserAddress" rows="3" cols="20"></textarea>
+   <br/><br/>
+   <input name="BtnSubmit" type="submit" value="Submit">
+</form>
+</html>                                      <?php
+                                            if(isset($_POST['BtnSubmit']))
+                                            {                                                      Output
+                                              echo "<h2>Bellow is the form data</h2>";
+• isset — Determine if a variable             echo "<hr>";
+                                              echo "</br>Your Name :{$_POST['Fullname']}";
+  is declared and is different                echo "</br>Your Address :{$_POST['UserAddress']}";
+  than NULL                                   echo "<hr>";
+                                            }
+                                           ?>
+
+
+                                                                                                            23
+        Reading forms - radio
+
+<html>
+<h3>PHP HTML Form radio button Example</h3>
+     <form name="UserInformationForm" method="POST" action="php-html-form-radio-button-example.php">
+        Enter Your Full Name :
+        <input name="FullName" type="text" value=""><br/><br/>
+        You are :
+        <input name="YourGender" type="radio" value="male"> Male
+        <input name="YourGender" type="radio" value="female" checked=checked"> Female<br/><br/>
+        <input name="BtnSubmit" type="submit" value="Submit">
+     </form>
+</html>                                                         <?php
+   Output                                                      if(isset($_POST['BtnSubmit']))
+                                                               {
+                                                                 echo "<h3>Your form data as bellow</h3>";
+                                                                 echo "</br>Your Name :{$_POST['FullName']}";
+                                                                 echo "</br>Your are :{$_POST['YourGender']}";
+                                                                 echo "<hr>";
+                                                               }
+                                                              ?>                                                 24
+       Reading forms – checkbox
+
+<html>                                                                              <?php
+Check box test                                                                      echo "Check box test<hr>" ;
+                                                                                    if(!empty($_POST['check_list'])) {
+      <form action="cbk.php" method="post">
+                                                                                                  foreach($_POST['check_list'] as $check) {
+            <input type="checkbox" name="check_list[]" value="one">One<BR>                                       echo "check=$check<br>";
+            <input type="checkbox" name="check_list[]" value="two">Two<BR>                        }
+            <input type="checkbox" name="check_list[]" value="three">Three<BR>      }else{
+            <button type="submit">submit</button>                                                 echo "Check list is empty";
+      </form>                                                                       }
+                                                                                    ?>
+</html>
+                                                                                    Output
+                                  • empty — Determine whether a variable is empty
+
+
+
+
+                                                                                                                                25
+     Reading forms - Select
+<html>
+<h3>PHP HTML Form select box Example</h3>
+<form name="UserInformationForm" method="POST" action="php-html-form-select-box-example.php">
+  Enter Your Full Name :
+                                                                                        <?php
+  <input name="FullName" type="text" value=""><br/><br/>
+                                                                                         if(isset($_POST['BtnSubmit']))
+  I like:                                                                                {
+                                                                                           echo "<h3>Your submitted form data as bellow</h3>";
+  <select name="I_like">                                                                   echo "Your Name : {$_POST['FullName']}</br>";
+                                                                                           echo "I like : <h2>{$_POST['I_like']} </h2> Programming...!</br>";
+    <option value="java">JAVA</option>                                                     echo "<hr>";
+                                                                                         }
+    <option value="php">PHP</option>
+                                                                                        ?>
+    <option value="asp">ASP .Net</option>
+  </select>                                                                                            Output
+  <br/><br/>
+  <input name="BtnSubmit" type="submit" value="Submit">
+</form>
+</html>
+
+
+                                                                                                                                                 26
+Summary
+
+• Arrays
+
+• Functions
+
+• Superglobal variables and Form handling
+
+
+
+
+                                            27
+       Lecture 8
+Internet Security
+IT1100 – Internet and Web Technologies
+Content
+
+• How safe is the Internet?
+
+• Internet security threats
+
+• Internet security services
+
+• Internet security
+
+• E-life and security
+
+                               2
+    HOW SAFE
+IS THE INTERENT?
+
+
+
+               3
+How safe is the internet
+
+
+
+
+                           4
+How safe is the internet
+
+
+
+
+                           5
+How safe is the internet
+  And more recently…
+
+
+
+
+                           6
+How safe is the internet
+  A growing threat, Ransomware! 
+
+
+
+
+                                    7
+How safe is the internet
+  What & Why Internet Security ?
+   •   Process of creating rules and actions to protect against
+       attacks over the Internet.
+
+
+   •   Importance of Internet Security:
+           •    Privacy & Confidentiality
+           •    Prevents Data & Identity theft
+           •    Maintains productivity
+           •    Foils cyber-terrorism
+           •    Avoids legal consequences of not securing information
+           •    And many more
+                                                         8
+Internet Security Threats
+   • Threats are numerous
+
+   • Websites are particularly vulnerable
+
+   • Political activism is one motivation for Website
+    defacement (Political Espionage)
+
+   • Theft of proprietary information is a major concern
+    (Cooperate Espionage)
+
+   • Some do it for fun, or just to prove a point!
+                                                     9
+Internet Security Threats
+
+
+
+
+                            10
+Internet Security Threats
+
+
+
+
+                            11
+Internet Security Threats
+  Types of Attacks
+   Denial of Service Attacks
+     •     An explicit attempt by attackers to prevent legitimate users of a service
+           from using that service
+
+     •       Flooding Attacks
+         •      Point-to-point attacks: TCP/UDP/ICMP flooding
+         •      SYN Flood, Ping of Death,
+         •      Smurf attacks
+
+
+   Distributed Denial of Service Attacks
+      • A DoS attack carried out using a large number of compromised systems
+          improving its potency and reducing traceability of the originator.
+                                                                    12
+Internet Security Threats
+  Types of Attacks
+    DNS Attacks
+      •     An explicit attempt by attackers to modify a legitimate DNS service.
+
+
+    Active Code Attacks
+      •     Java Applets
+          •      Java: developed by Sun Microsystems
+          •      Java programme runs in browser “sandbox”
+          •      Sandbox might have vulnerabilities
+          •      Problem: hostile applets
+
+      •       ActiveX
+          •      Microsoft’s answer to Java technology
+          •      Web browser can download any type of document
+          •      Internet Explorer invokes handler (example: Word)
+          •      Problem: browser loses control
+                                                                     13
+Internet Security Threats
+  Types of Attacks
+  SQL injection
+  • Attacker execute malicious SQL statements
+
+
+  • Any website or web application that use an SQL-based database could be vulnerable
+
+
+  • Attacker can use this to:
+      •     Bypass authentication and authorization mechanisms
+      •     Retrieve the contents of an entire database
+      •     Add, modify and delete records in a database
+
+
+  • Protection - Need to sanitize user input data
+
+                                                                  14
+Internet Security Threats
+  Types of Attacks
+ Cross Site Scripting (XSS)
+   •    Cross Site Scripting (CSS for short, but sometimes abbreviated as XSS)
+        is one of the most common application level attacks that hackers use
+        to sneak into web applications today.
+   •    CSS attack involves three parties – the attacker, a client and the web
+        site.
+   •    The goal of the CSS attack is to steal the client cookies, or any other
+        sensitive information, which can identify the client with the web site.
+        With the token of the legitimate user at hand, the attacker can
+        proceed to act as the user in his/her interaction with the site –
+        specifically, impersonate the user.
+                                                            15
+Internet Security Threats
+  Types of Attacks
+   Anatomy of an XSS Attack
+                                                               Web Server
+
+    Attacker
+                                 User
+
+               3. XSS Attack
+
+
+
+                                            7. Browser runs
+                                              injected code.
+
+                         4. User clicks on XSS link.
+                                                               16
+Internet Security Services
+
+   1. Confidentiality                            C.I.A Triad
+
+   2. Integrity
+   3. Availability
+
+
+   •    Non-Repudiation
+   •    Authentication
+   •    Authorization (Access Control)
+       [Can be described as part of Integrity]
+                                                        17
+Internet Security Services
+    Confidentiality
+•   Can be defined as the ‘Secrecy’ of the message
+•   Also known as ‘Privacy’
+
+
+
+
+•   Note: attacker doesn’t change any information (Passive Intruder)
+                                                      18
+Internet Security Services
+    Integrity
+•    Can be defined as the ‘Security’ of the message
+•    Ensure that the message will be delivered to the receiver without being modified in the
+     middle by the intruder.
+
+
+
+
+•     Note: attacker actively change any information
+    (Active Intruder)
+
+                                                                      19
+Internet Security Services
+    Availability
+•    Assuring information and communications services will be ready
+     for use when expected.
+•    Information must be kept available to authorized persons when
+     they need it.
+
+
+
+
+                                                  20
+Internet Security Services
+    Authentication
+    • Can be called as source verification
+    • Receiver can identify the actual sender
+    • Can be defined as a part of Origin Integrity
+    • Intruder is active and a malicious impersonator
+
+
+
+    Non – Repudiation
+    • Sender cannot deny that he/she sent the message
+    • Can be defined as a part of Origin Integrity
+
+
+
+    Authorization (Access Control)
+    • Access to resources should be in a controlled way.
+    • Intruders will be active. And try to access the resources which are not allowed.
+
+                                                                           21
+Internet Security
+• Why is it so difficult to achieve Internet Security?
+     •   Internet was created as a product of research
+     •   Security was not a prime concern those days
+     •   Inherent protocols does not have security features
+         •   HTTP - Messages sent in plain-text 
+         •   Email - No authentication of the sender
+         •   FTP - Basic file transfer protocol has no encryption
+     •   Security had to be introduced as add-ons
+         •   New protocols had to be introduced
+                 (HTTPS, SMTP, SFTP etc.)
+         •   But cannot stop users from using old protocols! 
+
+
+     •   All these new protocols rely on CRYPTOGRAPHY!
+
+
+                                                                    22
+Internet Security
+  The World of Cryptology
+                                                                                   The art and science
+                                                                                      of breaking the
+                                                   Cryptology                      cipher text is known
+                                                                                     as cryptanalysis.
+
+
+
+                                          Cryptography         Cryptanalysis
+
+
+              Encryption           Hash          Steganography                   Protocols
+
+
+      Symmetric       Asymmetric
+                                                         Combine Symmetric & Asymmetric
+                                                           techniques to create security
+                                                                    services.
+         Block                                                     E.g. HTTPS
+
+
+
+
+        Stream                                                        23
+Internet Security
+  Keywords in Cryptography
+    • Plain-text: It is the data to be protected during transmission. Original message
+    • Cipher-text: It is the scrambled version of the plain-text produced by the encryption
+      algorithm using a specific the encryption key. Text in unreadable format
+    • Encryption Algorithm: It is a mathematical process that produces a cipher-text for any
+      given plain-text and encryption key.
+    • Decryption Algorithm: It is a mathematical process, that produces a unique plain-text for
+      any given cipher-text and decryption key.
+    • Encryption Key: It is a value that is known to the sender. The sender inputs the encryption
+      key into the encryption algorithm along with the plain-text in order to compute the
+      cipher-text.
+    • Decryption Key: It is a value that is known to the receiver. The decryption key is related to
+      the encryption key, but is not always identical to it. The receiver inputs the decryption key
+      into the decryption algorithm along with the cipher-text in order to compute the plain-
+      text.
+
+                                                                             24
+Internet Security
+  Encryption
+                     Alice    Bob
+                    (good)   (good)
+
+
+
+
+                             Oscar
+                             (bad)
+                                      25
+Internet Security
+  Encryption
+    • openSSL can be used to encrypt/decrypt
+    • Key generation
+       • base64_encode(openssl_random_pseudo_bytes(32));
+
+
+    • Encryption
+       • Algorithm: 3DES, AES(Rijndael)
+       • Modes: ECB, CBC
+
+
+
+                                               26
+Internet Security
+  Encryption
+    function encrypt($plaintext)
+    {
+        $key = pack('H*',
+        "bcb04b7e103a0cd8b54763051cef08bc55abe029fdebae5e1d417e2ffb2a00a3");
+        $iv_size = mcrypt_get_iv_size(MCRYPT_RIJNDAEL_128, MCRYPT_MODE_CBC);
+        $iv = mcrypt_create_iv($iv_size, MCRYPT_RAND);
+        $ciphertext = mcrypt_encrypt(MCRYPT_RIJNDAEL_128, $key, $plaintext,
+        MCRYPT_MODE_CBC, $iv);
+        $ciphertext = $iv . $ciphertext;
+        $ciphertext_base64 = base64_encode($ciphertext);
+
+        return $ciphertext_base64;
+    }
+
+                                                                     27
+Internet Security
+  Decryption
+    function decrypt($cText)
+    {
+        $ciphertext_dec = base64_decode($cText);
+        $iv_size = mcrypt_get_iv_size(MCRYPT_RIJNDAEL_128, MCRYPT_MODE_CBC);
+        $iv_dec = substr($ciphertext_dec, 0, $iv_size);
+        $ciphertext_dec = substr($ciphertext_dec, $iv_size);
+        $key = pack('H*',
+        "bcb04b7e103a0cd8b54763051cef08bc55abe029fdebae5e1d417e2ffb2a00a3");
+        $plaintext_dec = mcrypt_decrypt(MCRYPT_RIJNDAEL_128, $key, $ciphertext_dec,
+        MCRYPT_MODE_CBC, $iv_dec);
+        return $plaintext_dec;
+    }
+
+                                                                    28
+Internet Security
+  Hash Functions
+     •   A hash function is a mathematical function that
+         converts a numerical input value into another
+         compressed numerical value. The input to the
+         hash function is of arbitrary length but output is
+         always of fixed length. E.g. MD5, SHA1, SHA2
+
+     •   Values returned by a hash function are
+         called message digest or simply hash
+            ―          (160 and 512 bits.)
+
+
+     •    Can use for Message Integrity
+         • Ideal for Password storage
+
+                                                              29
+Internet Security
+  Hash
+• Cryptographic libraries can be used to secure the password using
+  Hashing
+
+• Hashing //Store the password’s hash into the DB
+   • password_hash($pw, PASSWORD_BCRYPT);
+
+
+• Verify the password                                    Stored in
+   • password_verify($pw, $hashedPW);                     the DB
+
+
+
+                                                    30
+    Encryption Algorithms
+•       Symmetric key cryptography
+    •     Use of a single key for encrypting and decrypting the information
+    •     Key exchange problem!
+    •     Encryption, decryption algorithms are less complex
+    •     Faster!
+
+•       Asymmetric key cryptography (Public Key)
+    •     Each person has their own pair of keys,
+        •     private key
+        •     public key (Verified Certificate Authority)
+    •     Use one key to encrypt and another to decrypt.
+    •     Key exchange problem solved!
+    •     Encryption, decryption algorithms are very complex
+    •     Require far greater computation time, Slower!
+    •     impractical for large messages
+
+
+                                                                             31
+    Combine both techniques to create secure efficient security protocol suites!
+Certification Authorities - C A
+What CA does ?
+• Allow an individual to verify another person
+  or company’s public key
+• The digital certificate is encrypted with the
+  CA’s private key.
+• Each person must know the public key for the
+  CA in order to verify the certificate
+• Public keys for the main CA are encoded in
+  latest versions of web browsers.
+
+                                        32
+Certification Authorities - C A
+•   VeriSign     - www.verisign.com
+•   GeoTrust             - www.geotrust.com
+•   Comodo       - www.comodo.com
+•   Digicert             - www.digicert.com
+•   Thawte               - www.thawte.com
+•   GoDaddy              - www.godaddy.com
+•   Symantec             - www.symantec.com
+
+
+
+
+                                              33
+Internet Security
+ Protocols
+      •   We can combine all the learnt techniques to create
+          comprehensive security protocols.
+      •   Secure Socket Layer (SSL) also known as Transport
+          Layer Security (TLS)
+      •   Secure IP Protocol (IPSec) signature helps to assure
+          that the signer is who he or she claims to be.
+      •   HTTPS (Conventional HTTP used inside TLS)
+      •   And many more
+
+                                                    34
+    Internet Security
+       Protocols – SSL/TLS
+•     Provide authentication for servers and browsers.
+•     Provide confidentiality and data integrity for communications.
+•     Operating lower in the network stack.
+•     Widely used on the web.
+•     SSL makes use of a combination of public key and symmetric
+      cryptography, along with digital certificates for verification.
+•     Latest version SSL 3.0, TLS 1.2.
+
+
+                                                     35
+Internet Security
+  Protocols – SSL/TLS
+
+
+
+
+                        36
+e-Life & Security
+
+
+
+
+                    37
+e-Life & Security
+  Best Security Practices - Facebook
+     • Take control of your posts
+        • Understand the importance of FB’s Audience Selector tool.
+     • Manage posts other people have tagged you in using Tag Review.
+     • Give priority to your privacy.
+       • “Who can see my stuff?” “Who can contact me?” “Who can look me
+          up?”
+     • Protect your password!
+     • Avoid clicking on suspicious links or objects
+     • If required you CAN permanently delete your FB account.
+     • Use FB’s security guidelines:
+       https://www.facebook.com/facebookmedia/best-practices/security
+                                                             38
+e-Life & Security
+  Best Security Practices – YouTube
+     •   Keep your account recovery information updated
+     •   Audience Selector in YouTube.
+     •   Videos violating your privacy ?
+       •   If you can’t reach an agreement with the uploader, or if you
+           are uncomfortable contacting them, you can request removal
+           of content.
+     •   Unique & strong password!
+     •   Don’t be a victim of phishing attacks:
+       •   YouTube will never ask you for your password, email address,
+           or other account information.
+       •   Don't be fooled if someone contacts you pretending to be
+           YouTube!
+                                                        39
+e-Life & Security
+    Best Security Practices – Gmail
+•    Constantly check recent account activity for anything suspicious.
+     Use ‘Recent Security Event’ tool.
+•    Enable ‘Authentication icon for verified senders’ tool.
+•    Do not open ‘Spam’ emails unless 100% certain
+•    Unique & strong password!
+•    Update your web browser
+•    Complete Gmail’s Security Checkup
+
+
+                                                     40
+e-Life & Security
+  Lessons Learned
+     •   Internet is NOT safe, hence security techniques had to be
+         introduced.
+     •   Many threats exist and attackers use various techniques.
+     •   Key Internet Security services are identified (CIA Triad).
+     •   Cryptography provides solution for security requirements.
+     •   We can combine cryptographic techniques to create
+         comprehensive security protocol suites such as TLS.
+     •   Always use best security practices for your daily internet based
+         interactions.
+
+                                                          41
+Summary
+
+• How safe is the Internet?
+
+• Internet security threats
+
+• Internet security services
+
+• Internet security
+
+• E-life and security
+
+                               42
+            Lecture 09
+PHP - Database handling
+   IT1100 Internet and Web technologies
+Content
+• Introduction
+• The connection
+• Create
+• Read
+• Update
+• Delete
+
+                   2
+Introduction
+
+  • How to store data in software applications?
+
+  • What is the best method to store data in software applications?
+
+  • What is a Database?
+
+
+
+
+                                                                      3
+Introduction
+• Database is an external resource, hosted in a database server, and
+  managed by a DBMS
+• The database server is considered as a separate tire
+
+
+
+
+                                                                       4
+Introduction
+
+ • MySQL database server is the de facto standard for PHP
+   applications
+
+ • There are multiple ways to connect to a database using PHP
+
+ • PHP can perform CRUD operations on a database using SQL
+
+
+
+                                                                5
+Ways to connect to DB using PHP
+
+     1. MySQL extension
+       •   Support only PHP versions before v7
+       •   Procedural
+
+     2. MySQLi (improved)
+       •   Support since PHP version 7
+       •   Support both procedural and OOP
+       •   Support prepared statements
+
+     3. PHP Data Objects (PDO)
+       •   A lightweight, consistent interface for accessing databases in PHP.
+       •   Support many DB servers
+       •   Only OOP
+       •   Support prepared statements
+
+                                                                                 6
+The connection - Configurations
+
+• It is a good idea to keep the DB configurations in a dedicated file
+  config.php
+
+//The connection object
+//$con= new mysqli(“Server”, “UN”, “PW”, “DB”);
+
+$con=new mysqli("localhost","root",“123","test");
+
+
+
+                                                                        7
+The connection - Configurations
+• Check for errors before continue
+
+// Check connection
+if ($con->connect_error)
+{
+   die("Connection failed: " . $con->connect_error);
+}
+
+
+        The connect_error function returns the error description from the last
+        connection error, if any. NULL if no error occurred.
+
+
+                                                                                 8
+The connection - Configurations
+• The configuration file can be linked when needed
+
+• index.php (or any other page/file)
+      //Linking the configuration file
+      require 'config.php';
+
+
+• require is identical to include except upon failure it will also produce a fatal E_COMPILE_ERROR level error.
+• It will halt the script whereas include only emits a warning (E_WARNING) which allows the script to continue.
+• The require_once statement is identical to require except PHP will check if the file has already been included,
+  and if so, not include (require) it again
+
+
+
+                                                                                                               9
+Create - The INSERT statement
+• To create data, an insert SQL statement is used
+
+$sql= "INSERT INTO myTable(ID, Name) VALUES (1, ‘SLIIT’)“;
+
+
+
+                                                             Single quotes
+                                                              for strings,
+                                                             within double
+                                                                quotes
+
+
+                                                                        10
+Execute the statement
+
+
+• $con->query($sql)
+
+  • This returns a Boolean value to indicate the (un)successful
+    execution of the statement in the DB server
+
+
+
+
+                                                                  11
+Execute the statement
+if ($con->query($sql))
+{
+   echo “Inserted successfully";
+}
+else
+{
+   echo “Error: ”. $con->error;
+}
+
+
+
+
+                                   12
+Execute the statement
+
+  • Do not forget to close the connection
+     • After executing any operation
+
+
+        $con->close();
+
+
+
+
+                                            13
+Complete Code
+<?php
+//Linking the configuration file
+require 'config.php';
+$sql= "INSERT INTO myTable(ID,Name)VALUES(11111,'SLIIT')";
+                                                                                                             config.php
+  if($con->query($sql)){
+          echo "Inserted successfully";          <?php
+                                                 //The connection object
+  }
+                                                 $con=new mysqli("localhost","root","","MyDB");
+  else{                                          // Check connection
+          echo "Error:". $con->error;                       if($con->connect_error){
+                                                                       die("Connection failed: " . $con->connect_error);
+  }                                                         }
+                                                 ?>
+$con->close();
+?>
+
+                                                                                                                14
+Problems in data INSERT method
+• Can insert One Record at a time
+• User need access rights to internal .PHP pages stored in webserver
+  (ex. /htdocs/…)
+
+
+
+ Solutions
+• Use a HTML Form
+• Use a PHP Form
+
+
+
+                                                                       15
+                                                                           <?php
+                                                                           //Linking the configuration file
+Solution1                                                                  require 'config.php';
+                                                                           $ID = $_POST["stuID"];
+Use a HTML Form                                                            $Name = $_POST["stuName"];
+                                                                           $sql= "INSERT INTO myTable(ID,Name)VALUES($ID,$Name)";
+                                                                                       if($con->query($sql)){
+                                                                                                  echo "Inserted successfully";
+<!doctype html>                                                                        }
+<html>                                                                                 else{
+  <head> </head>                                                                                  echo "Error:". $con->error;
+                                                                                       }
+                                                                           $con->close();
+  <body>
+                                                                           ?>
+            <form method="post" action="form_process.php">
+            <h3>Input Student Data </h3>
+                      Student ID :<input type="text" name="stuID"><BR />
+                      Student Name :<input type="text" name="stuName"><BR />
+                      <input type="submit" value="Submit">
+                      <input type="reset" value="Reset">
+            </form>
+  </body>
+</html>
+
+
+                                                                                                                                16
+<?php
+
+//Linking the configuration file
+
+require 'config.php';
+                                   1
+?>
+
+     <form method="post" action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]);?>">   2
+                  <h3>Input Student Data </h3>
+
+                  Student ID :<input type="text" name="stuID"><BR />
+
+                  Student Name :<input type="text" name="stuName"><BR />
+                                                                               3
+                  <input type="submit" value="Submit" name="btnSubmit">
+
+                  <input type="reset" value="Reset">
+
+     </form>
+
+<?php
+                                             4
+if(isset($_POST["btnSubmit"])){
+
+     $stuID = $_POST["stuID"];
+                                                                                              Solution 2
+     $stuName = $_POST["stuName"];          5
+                                                                                              Use a PHP Form
+     $sql= "INSERT INTO myTable(ID,Name)VALUES($stuID,'$stuName')";        6
+                  if($con->query($sql)){
+
+                                   echo "Inserted successfully";
+
+                  }
+                                                                           7
+                  else{
+
+                                   echo "Error:". $con->error;
+
+                  }
+
+}
+
+$con->close();                                                             8
+                                                                                                               17
+?>
+Select statement
+
+ • When reading data from a DB, we use a select statement, which
+   returns a dataset as the result.
+
+       $sql = “select ID, name from myTable”
+
+
+
+
+                                                                   18
+Read - Result set
+• We execute the select SQL statement, then assign the result set
+  into a variable
+
+      $result = $con->query($sql);
+
+
+
+
+                                                                    19
+Read - Result set - availability
+  • If only there are results, we can read them
+
+  if ($result->num_rows > 0)
+  {
+     //read data
+  }
+  else
+  { echo “no results”; }
+
+
+                                                  20
+Result set – read data
+• We read the dataset row by row using a loop
+• There are multiple functions to fetch a row from a dataset
+
+• fetch_all — Fetches all result rows as an associative array, a numeric array, or both
+• fetch_array — Fetch a result row as an associative, a numeric array, or both
+• fetch_assoc — Fetch a result row as an associative array
+• fetch_field_direct — Fetch meta-data for a single field
+• fetch_field — Returns the next field in the result set
+• fetch_fields — Returns an array of objects representing the fields in a result set
+• fetch_object — Returns the current row of a result set as an object
+• fetch_row — Get a result row as an enumerated array
+
+                                                                                          21
+Result set – read data
+• Lets use fetch_assoc(), which return the row as an associative
+  array
+
+while($row = $result->fetch_assoc())
+{
+      //Read and utilize the row data
+}
+
+
+
+
+                                                                   22
+Result set – read data
+• Column names can be used as the indexes to read the cell data in
+  the fetched row
+
+echo $row["ID"]. " – " . $row["Name"] . "<BR />";
+
+EX: show the data inside a table, on the page
+
+
+
+
+                                                                     23
+ Read -Complete function
+• Column names can be used as the indexes to read the cell data
+  in the fetched row
+
+echo $row["ID"]. " – " . $row["Name"] . "<BR />";
+
+EX: show the data inside a table, on the page
+
+
+
+
+                                                                  24
+<?php
+//Linking the configuration file                                               <?php
+                                                                               //The connection object
+require 'config.php';                                                          $con=new mysqli("localhost","root","","MyDB");
+$sql = "select ID, Name from myTable";                                         // Check connection
+                                                                                          if($con->connect_error){
+$result = $con->query($sql);
+                                                                                                     die("Connection failed: " . $con-
+                                                                               >connect_error);
+     if($result->num_rows > 0){                                                           }
+                                                                               ?>
+             //read data
+             while($row = $result->fetch_assoc()){
+             //Read and utilize the row data
+                           echo $row["ID"]. " – " . $row["Name"] . "<BR />";
+             }
+     }
+     else
+     {
+                                                                                           Complete
+             echo "no results";                                                            Code
+     }
+$con->close();
+?>
+                                                                                                                                     25
+           <?php
+  Read     require 'config.php';
+
+Complete   function readData()
+           {
+
+function       global $con;
+               $sql = "SELECT ID, Name FROM myTable";
+               $result = $con->query($sql);
+               if ($result->num_rows > 0)
+               {                                                                       <?php
+                                                                                       $con=new mysqli("localhost","root","","test");
+                   while($row = $result->fetch_assoc())
+                   {                                                                   if($con->connect_error)
+                                                                                       {
+                       echo "ID: " . $row["ID"]. " - Name: " . $row["Name"]. "<br>";      die("Connection failed: ". $con->connect_error);
+                                                                                       }
+                   }                                                                   ?>
+               }
+               else
+               {
+                   echo "No results";
+               }
+               $con->close();
+           }
+           readData();                                                                                                        26
+Read
+• Modify the given php code to display data inside a table.
+
+
+
+
+                                                              27
+Summary
+Introduction
+
+The connection
+
+Create
+
+Read
+
+                 28
+          Lecture 10
+Cookies and Sessions
+
+ IT1100 Internet and Web technologies
+Content
+• Introduction to PHP Cookies and Sessions
+• Cookies
+• Sessions
+• Some use of the sessions
+
+
+
+
+                                             2
+    Introduction to PHP Cookies and Sessions
+• A web application may contain multiple pages
+   • a page may contain multiple features
+
+• A user may navigate through multiple pages and
+  use multiple features, while performing complex
+  transactions, when accessing a web application
+   • This may cause many request-response cycles
+   • E.g. – Online shopping application -> items pages, shopping cart
+     page, checkout page, etc…
+
+
+
+
+                                                                        3
+   Introduction to PHP Cookies and Sessions
+• When the user utilizes a web application to
+  accomplish task(s)/transaction(s), from the
+  point the user starts using the application up
+  to the point the user leaves the application, it
+  can be seen as a user session.
+• There can be some common data to be used
+  by the application throughout the user
+  session.
+   • E.g. – User details (user name), logging details
+     (authorization), items in the cart, etc…
+
+
+
+
+                                                        4
+ Introduction to PHP Cookies and Sessions
+• HTTP is a stateless protocol
+   • It cannot maintain details/data between multiple
+     requests
+   • If need to share data between pages/requests,
+     application level mechanism should be used
+• PHP use techniques named Cookies and
+  Sessions
+
+
+
+
+                                                        5
+ Cookies - Introduction
+• Cookie is a small entry, which is saved in the user’s device, by the server
+   • Usually managed by the browser in a secured way
+• Once a cookie is created/set, it will be sent back to the server with the each
+  request
+• Cookies can also be processed by JS
+   • Because it is saved in the client-side
+
+
+
+
+                                                                            6
+Cookies - Set a cookie
+• A cookies is set as a name:value pair with some additional details
+
+// setcookie(name, value, expire, path, domain, secure, httponly);
+
+
+
+setcookie(“Name”, “SLIIT”, time() + (86400 * 30), "/");
+                      Time in seconds
+                                                   available for the entire
+                       86400 = 1 day                       website
+                                                     (or specify the dir)
+
+
+
+
+                                                                              7
+Cookies - Set a cookie
+• You can see the cookie in the browser.
+
+• Cookie will be expired after the set time
+
+• You can remove the cookie(s) in the browser, using the browser
+ settings
+
+
+
+
+                                                                   8
+Cookies - Modify a cookie
+• To modify a cookie, you may set it again with the new value (and other
+  data)
+• setcookie(“Name”, “SLIIT”, time() + (86400 * 30), "/");
+
+• setcookie(“Name”, “SLIIT FoC”, time() + (86400 * 30), "/");
+
+         Same             New
+         name             value
+
+
+
+
+                                                                       9
+Cookies - Delete a cookie
+
+• To delete a cookie, modify it with a past expiration time
+
+setcookie(" Name ", "", time() - 3600);
+
+
+                                Hour ago
+
+
+
+
+                                                              10
+Cookies- Use cookies
+• Cookies are accessible using the $_COOKIE super global,
+   • use the cookie name for the index
+
+ echo $_COOKIE[“Name”]
+
+
+
+
+                                                            11
+Cookies - Validate cookies
+• You can check if the cookies are enabled for the application by
+  checking the cookie count
+   • count($_COOKIE)
+
+      if(count($_COOKIE) > 0) {
+         echo "Cookies are enabled.";
+      }
+      else {
+         echo "Cookies are disabled.";
+      }
+
+                                                                    12
+Cookies - Validate cookies
+
+• You can check for a specific cookie using the isset()
+
+      if(isset($_COOKIE[“Name”])) {
+         echo $_COOKIE[“Name”];
+      }
+      else {
+         echo “No such cookie”;
+      }
+
+
+                                                          13
+<!DOCTYPE html>
+<?php
+$cookie_name = "user";
+$cookie_value = "John Doe";
+setcookie($cookie_name, $cookie_value, time() + (86400 * 30), "/");
+// 86400 = 1 day
+?>
+<html>
+<body>                                                                Output?
+<?php
+if(!isset($_COOKIE[$cookie_name])) {
+    echo "Cookie named '" . $cookie_name . "' is not set!";
+} else {
+    echo "Cookie '" . $cookie_name . "' is set!<br>";
+    echo "Value is: " . $_COOKIE[$cookie_name];
+}
+?>
+
+<p><strong>Note:</strong> You might have to reload the page to see
+the value of the cookie.</p>
+
+</body>
+</html>
+Sessions - Introduction
+
+• Sessions are stored in the server
+• PHP server can identify the user
+  session and maintain the
+  Session variables within a user
+  session
+• Unlike cookies, Sessions are
+  discarded when the user leaves
+  the application (closes the
+  browser)
+
+                                      15
+Sessions - Introduction
+
+• When the Session variables are used in an application, you have to
+ start the session on each and every page, which use sessions
+
+
+
+//This should be the first line of the page/file
+
+session_start();
+
+
+                                                                       16
+Sessions - Set/modify Session variables
+• A Session variable is also a name:value pair
+   • Use the $_SESSION super global variable
+   • Name of the Session entry is used as the index
+
+      $_SESSION[“Name”] = “SLIIT”;
+
+• To modify, you can simply assign the new value
+      $_SESSION[“Name”] = “SLIIT FoC”;
+
+
+
+                                                      17
+Sessions - Set/modify Session variables
+• A Session variable is also a name:value pair
+   • Use the $_SESSION super global variable
+   • Name of the Session entry is used as the index
+
+      $_SESSION[“Name”] = “SLIIT”;
+
+• To modify, you can simply assign the new value
+      $_SESSION[“Name”] = “SLIIT FoC”;
+
+                                                      18
+Sessions - Use Session variables
+• Session variables can be used in the same way as a regular variable
+
+            echo $_SESSION[“Name”];
+
+
+
+
+                                                                        19
+Sessions - End Session variables
+• Session variables can be explicitly discarded by the application
+
+      // remove all session variables
+      session_unset();
+
+      // destroy the session
+      session_destroy();
+
+E.g. :When the user logs off from the application
+
+                                                                     20
+Sessions - Validate Session variables
+• isset() can be used to check if the Session variable is available
+
+      if(isset($_SESSION[“Name”])) {
+              echo $_SESSION[“Name”];
+      }
+      else {
+              echo “No such Session”;
+      }
+
+                                                                      21
+Sessions - Validate Session variables
+• empty() can be used to check if the Session variable contains a value
+
+      if(!empty($_SESSION[“Name”])) {
+             echo $_SESSION[“Name”];
+      }
+      else {
+             echo “Session has no value”;
+      }
+
+                                                                          22
+<?php session_start();
+
+if( isset( $_SESSION['counter'] ) ) {
+
+$_SESSION['counter'] += 1;
+
+}else {
+
+$_SESSION['counter'] = 1;
+
+}
+
+$msg = "You have visited this page ". $_SESSION['counter']; $msg .= "in this session.";
+
+?>
+
+<html>
+
+<head> <title>
+
+Setting up a PHP session</title>
+
+</head>
+
+<body>
+
+<?php echo ( $msg );
+
+?>
+
+</body>
+
+</html>
+Some use of the sessions
+
+• The common uses of Sessions are
+  • To maintain the user details (If the user is logged in or not)
+  • To store the items in a shopping cart
+
+
+
+
+                                                                     24
+User log in – index.php
+<html>
+<head>
+</head>
+<body>
+ <h1>Log in</h1>
+ <form method="post" action="index.php">
+    Username: <input type="text" name="txtName"/><br>
+    Password: <input type="password" name="txtPass"/><br>
+    <input type="submit"/>
+ </form>
+</body>
+</html>
+
+
+                                                            25
+User log in – index.php
+
+• If the request has the $_POST["txtName"], then it is the log in form
+  submission
+
+if(isset($_POST["txtName"]))
+{
+        //Validate the user
+        //If a validuser, set a Session
+}
+
+
+                                                                         26
+User log in – index.php
+• User can be validated against the data in a DB
+  • The sample code below validates the user against some static
+    data just for demonstration
+
+if($_POST["txtName"]=="asd" && $_POST["txtPass"]=="123")
+{
+      //Valid user, so set the Session
+      $_SESSION["userName"] = $_POST["txtName"];
+}
+
+
+                                                                   27
+User log in – index.php
+• You may also check, if this is an already logged user.
+  • We do not want to show a log in page to an already logged in user
+
+  if(isset($_SESSION["userName"]))
+  {
+       //Redirect to another page
+       header("Location:home.php");
+  }
+
+
+                                                                    28
+User log in – index.php
+<?php //TOP OF THE PAGE
+session_start();
+
+if(isset($_POST["txtName"])){
+  if($_POST["txtName"]=="asd" && $_POST["txtPass"]=="123") {
+          $_SESSION["userName"] = $_POST["txtName"];
+  }
+}
+
+if(isset($_SESSION["userName"])) {
+          header("Location:home.php");
+}
+?>
+
+
+                                                               29
+User log in – Other pages (home.php)
+• We can identify if the user is an already logged in user or
+  not by checking the Session.
+  <?php
+  session_start();
+
+  $userName = "";
+  if(isset($_SESSION["userName"])) { //Already logged in
+       $userName = $_SESSION["userName"]; //Use the session value
+  }
+  else {// Not logged in
+       header("Location:index.php"); //Redirect to the login page
+  }
+  ?>
+
+
+                                                                    30
+User log in – Other pages (home.php)
+• Other pages may have a log out feature
+<html>
+<head>
+</head>
+<body>
+   <h1>Hello <?php echo $userName; ?></h1>
+   <form method="post" action="logoff.php">
+     <input name="logoff" type="submit" value="Log off"/>
+   </form>
+</body>
+</html>
+
+
+                                                            31
+ User log off – logoff.php
+• Check if the request if coming from a logoff feature
+  • If coming from a log off feature, then end the Session and redirect
+    to log in page
+
+if(isset($_POST["logoff"]))
+{
+       session_destroy();
+       header("Location:index.php");
+}
+
+                                                                      32
+User log off – logoff.php
+• If someone is trying to visit the page directly, we had better
+  redirect to a proper page
+
+else
+{
+       header("Location:home.php");
+}
+
+
+
+                                                                   33
+User log off – logoff.php
+<?php
+session_start();
+
+if(isset($_POST["logoff"])) {
+     session_destroy();
+     header("Location:index.php");
+}
+else {
+     header("Location:home.php");
+}
+?>
+
+
+                                     34
+Summary
+• Introduction to PHP Cookies and Sessions
+• Cookies
+• Sessions
+• Some use of the sessions
+
+
+
+
+                                             35
+              Lecture 11
+Search Engines and Social Media
+       IT1100 – Internet and Web Technologies
+Content
+
+ Search Engines
+
+ Social Media
+ Accessing Social Media Data using PHP
+Search Engines
+What is a Search Engine?
+
+A Search Engine is a computer programme that search
+documents for specific keywords and return a list of the
+documents where the keywords were found.
+                                             ~ Webopedia ~
+Common Search Engines and Tools
+
+ Desktop Search Tool
+ Metasearch Engine
+ Blog Search Engine
+ Enterprise Search Tools
+Web Search Engine
+
+
+A Web Search Engine is a tool that enables users to
+locate information on the World Wide Web.
+Search Engines
+
+ Search engines help to search for content / information /
+  resources in WWW
+   Web pages, text, files, images, audio, video, etc.
+
+
+ The user input the search text (query – in key words or phrase)
+  and get the search engine results pages (SERPs) as the output
+Search Engines
+
+ Search engines maintain the details of the WWW, in order to
+  produce the results faster.
+
+ Web sites/applications maintain the details to be identified by
+  the search engines.
+   Meta data (using meta elements).
+Seven Simple Changes to make Websites more visible
+to Search Engines
+ 1.   Optimize every page of the website with rich content.
+ 2.   Write unique title tags and meta descriptions for every page.
+ 3.   Weed out 404 errors.
+ 4.   Make the page/site content easily shareable.
+ 5.   Optimize images.
+ 6.   Make the Website load faster.
+ 7.   Include structured markup.
+
+                                                           https://www.entrepreneur.com/article/273801
+Search Engines
+
+
+     A search engine maintains the following
+     processes in near real time.
+      Web Crawling
+      Indexing
+      Searching
+Web Crawling
+
+ Search engines use an application called web crawler (also called
+  spider or bot) to systematically crawl/browse through the content
+  in the WWW.
+ The web sites are optimized for the crawler to access, identify, and
+  understand the content easily.
+ Web site/application owners can submit their domain details to
+  search engines to ensure the indexing.
+Web Crawling
+
+ Web crawler uses policies to have optimal results, yet not
+  damaging the web site
+   Selection Policy
+   Re-visit Policy
+   Politeness Policy
+   Parallelization Policy
+Indexing
+
+   The details/data gathered by crawling are stored, for
+    fast and accurate retrieval.
+   The result can be seen as an index of web resources.
+Indexing
+   Special index data structures are used to improve the processing
+    productivity.
+     Suffix trees
+     Inverted index
+     Document-term matrix
+Searching
+
+  User can specify keywords/phrases and search for
+   content/resources.
+  User’s input is called a web search query.
+  Search engines use query languages to process the query and
+   retrieve matching content from the indexes.
+  Then the matching content are shown to the user with
+   hyperlinks to reach the original sources
+Social Media
+What is Media?
+  Media is the plural of medium.
+  Any form of communicating.
+      Newspapers
+      Magazines
+      Radio
+      Television
+      Internet (considered as a group)
+What is Multimedia?
+
+Multimedia means using a combination of moving and still
+pictures, sound, music, and words, especially in computers or
+entertainment.
+                                               [Cambridge dictionary]
+What is Social Media?
+
+websites and computer programs that allow people to
+communicate and share information on the internet using a
+computer or mobile phone.
+                                             [Cambridge dictionary]
+What is Social Media?
+   Web  sites/applications that allow people to communicate
+    and share information, ideas, career interests, and other
+    forms of expressions on the internet using a computer or
+    mobile phone.
+   Usually the information is shared within social groups.
+Uses of Social Media
+   Communication.
+   Collaboration.
+   Opinions & Reviews.
+   Brand Monitoring.
+   Entertainment.
+   Media Sharing.
+   Paid Advertising.
+Different types of
+Social Media
+Types of Social Media
+Social Networking
+      Find friends with similar interest, group activities, share
+       resources and events.
+
+
+
+      Chat  – Communication between individuals or groups,
+       publishing announcements, resource sharing.
+Types of Social Media
+Blogging
+
+     Content    writing (articles, tutorials, technical reviews,
+      stories, etc.) and publishing, commenting, and reviewing.
+Types of Social Media
+Micro-blogging
+
+     Status updates within groups, friends
+Types of Social Media
+Photo Sharing
+
+     Share/publish     photos/images: personals, professional,
+      hobbies, etc.
+Types of Social Media
+Video Sharing
+
+     Share/publish     videos: Movies, songs, documentaries,
+      technical, etc.
+Types of Social Media
+Forums
+
+     Ask questions, share experience/knowledge, learn.
+Types of Social Media
+Wikis
+
+     Content is built by the community as a group.
+Social Media
+Integration
+
+   Popular  social media sites/applications provides various
+    widgets, which can be integrated into other systems.
+        Google logging, Facebook comments, YouTube video
+
+   Usually  the social media site/application provides the
+    integration details.
+Social Media
+Integration Available Social Plugins
+   Facebook comments plugin
+        https://developers.facebook.com
+         /docs/plugins/comments/
+Social Media
+Integration Google Sign-In
+   Google Sign-In
+        https://developers.google.com/id
+         entity/sign-in/web/sign-in
+   Accessing
+Social Media Data
+   Using PHP
+Accessing
+Social Media Data Using PHP
+ Facebook SDK v5 for PHP
+       Enable PHP developers to easily integrate Facebook login and
+        make requests to the Graph API.
+       Makes it easy to upload photos and videos and send batch
+        requests to the Graph API among other things.
+       Whether you're developing a website with Facebook login,
+        creating a Facebook Canvas app or Page tab, the Facebook SDK for
+        PHP does all the heavy lifting for you making it as easy as possible
+        to deeply integrate into the Facebook platform.
+References
+https://developers.facebook.com/docs/reference/php/
+References
+https://developers.facebook.com/
+References
+https://developers.google.com/
+Summary
+
+  Search Engines
+  Social Media
+  Accessing Social Media Data using PHP
+
