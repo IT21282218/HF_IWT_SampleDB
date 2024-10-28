@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Partial Fractions</title>
+    <!-- Include MathJax for LaTeX rendering -->
+    <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+    <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+</head>
+<body>
+
+    <h1>Partial Fractions</h1>
+    <h2>Ms. Nilushi Dias</h2>
+    <p>Year 01, Semester 01</p>
+
+    <h2>Outline</h2>
+    <ol>
+        <li>Learning outcomes</li>
+        <li>Partial fractions</li>
+        <li>Denominators with quadratic factors</li>
+    </ol>
+
+    <h2>Learning Outcomes</h2>
+    <ul>
+        <li>Factorize the denominator of an algebraic fraction into its prime factors</li>
+        <li>Separate an algebraic fraction into its partial fractions</li>
+        <li>Recognize the rules of partial fractions</li>
+    </ul>
+
+    <h2>Partial Fractions</h2>
+    <p>To reverse the process, namely, to separate an algebraic fraction into its partial fractions, we proceed as follows.</p>
+    <p>Consider the fraction:</p>
+    <p>$$ \frac{3x + 5}{(x + 1)(x + 2)} $$</p>
+
+    <p>Firstly, the denominator is factorized to give:</p>
+    <p>$$ (x + 1)(x + 2) $$</p>
+
+    <p>Next, it is assumed that a partial fraction breakdown is possible in the form:</p>
+    <p>$$ \frac{3x + 5}{(x + 1)(x + 2)} = \frac{A}{x + 1} + \frac{B}{x + 2} $$</p>
+
+    <p>The assumption is validated by finding the values of \(A\) and \(B\).</p>
+
+    <p>To find the values of \(A\) and \(B\), the two partial fractions are added to give:</p>
+    <p>$$ \frac{A(x + 2) + B(x + 1)}{(x + 1)(x + 2)} $$</p>
+
+    <p>Since the denominators are identical, the numerators must be identical as well. That is:</p>
+    <p>$$ 3x + 5 = A(x + 2) + B(x + 1) $$</p>
+
+    <p>Consider the identity:</p>
+    <p>$$ 3x + 5 = Ax + 2A + Bx + B $$</p>
+
+    <p>Therefore:</p>
+    <p>$$ 3x + 5 = (A + B)x + (2A + B) $$</p>
+
+    <p>For this procedure to be successful, the numerator of the original fraction must be of at least one degree less than the degree of the denominator. If this is not the case, the original fraction must be reduced by division.</p>
+    <p>For example:</p>
+    <p>$$ \frac{x^2 + 3x + 2}{x + 1} $$</p>
+
+    <h2>Denominators with Quadratic Factors</h2>
+    <p>A similar procedure is applied if one of the factors in the denominator is a quadratic. For example:</p>
+    <p>$$ \frac{x^3 + 2x^2 + 3x + 4}{(x + 1)(x^2 + x + 1)} $$</p>
+
+    <p>This results in:</p>
+    <p>$$ \frac{x^3 + 2x^2 + 3x + 4}{(x + 1)(x^2 + x + 1)} = \frac{A}{x + 1} + \frac{Bx + C}{x^2 + x + 1} $$</p>
+
+    <p>Equating coefficients of powers of \(x\) yields:</p>
+    <p>Three equations in three unknowns with solution:</p>
+    <p>$$ A = 4, \quad B = 3, \quad C = -2 $$</p>
+
+    <p>so that:</p>
+    <p>$$ \frac{x^3 + 2x^2 + 3x + 4}{(x + 1)(x^2 + x + 1)} = \frac{4}{x + 1} + \frac{3x - 2}{x^2 + x + 1} $$</p>
+
+    <p>Similarly, repeated factors in the denominator of the original fraction of the form:</p>
+    <p>$$ (x + 1)^2 $$</p>
+
+    <p>give partial fractions of the form:</p>
+    <p>$$ \frac{A}{x + 1} + \frac{B}{(x + 1)^2} $$</p>
+
+    <h2>Thank You!</h2>
+
+</body>
+</html>
